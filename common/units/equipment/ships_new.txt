@@ -1,5 +1,8 @@
 equipments = {
 
+    ### DESTROYER
+    
+    
 	ship_hull_light_5 = {
 		year = 1948
 
@@ -112,5 +115,514 @@ equipments = {
 			chromium = 2
 		}		
 		manpower = 500
+	}
+    
+    
+    ### CRUISERS
+    
+    ship_hull_cruiser_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = ship_hull_cruiser_4
+		naval_speed = 30
+		manpower = 1400
+		build_cost_ic = 2300
+		naval_range = 5000
+		max_strength = 150
+		resources = {
+			steel = 3
+            chromium = 1
+		}
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+					ship_medium_battery
+				}
+			}
+			
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_light_battery
+					ship_medium_battery
+					ship_secondaries
+					ship_airplane_launcher
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+					ship_airplane_launcher
+					ship_depth_charge
+					ship_light_battery
+					ship_medium_battery
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			rear_1_custom_slot = empty
+			rear_2_custom_slot = empty
+		}
+	}
+    
+    
+    light_cruiser_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = light_cruiser_4
+		module_slots = inherit
+		
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			mid_1_custom_slot = ship_torpedo_4
+			mid_2_custom_slot = ship_anti_air_4
+			rear_1_custom_slot = ship_light_medium_battery_4
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 2
+		sub_attack = 8
+		
+		anti_air_attack = 0
+		
+		armor_value = 8
+
+		
+		surface_detection = 80
+		sub_detection = 70
+		naval_speed = 36
+		reliability = 0.92
+
+		naval_range = 4500
+		
+		max_strength = 170
+		
+
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 2200
+		resources = {
+			#oil = 2
+			steel = 2
+			chromium = 1
+		}
+		manpower = 1140
+	}
+    
+    
+    heavy_cruiser_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_cruiser
+		priority = 1800
+		parent = heavy_cruiser_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_medium_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			front_1_custom_slot = ship_anti_air_4
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = dp_ship_secondaries
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_medium_battery_4
+			rear_2_custom_slot = ship_anti_air_4
+		}
+		hg_armor_piercing = 0
+		hg_attack = 0
+		torpedo_attack = 0
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 15
+
+		
+		surface_detection = 50
+		sub_detection = 7
+		surface_visibility = 15
+		naval_speed = 35
+		reliability = 0.92
+
+		naval_range = 6000
+		
+		max_strength = 250
+		
+
+
+		build_cost_ic = 3600
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 2
+		}		
+		manpower = 2200
+    }
+    
+    
+    ### BATTLESHIPS
+    
+    ship_hull_heavy_5 = {
+		year = 1948
+
+		archetype = ship_hull_heavy
+		priority = 1500
+		parent = ship_hull_heavy_4
+		visual_level = 1
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_heavy_battery
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					ship_secondaries
+					ship_airplane_launcher
+				}
+			}
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		naval_range = 5500
+		
+		max_strength = 550
+		naval_speed = 26
+		fuel_consumption = 67
+		reliability = 0.95
+		build_cost_ic = 3800
+		resources = {
+			#oil = 1
+			steel = 2
+			chromium = 1
+		}
+
+		manpower = 6000
+	}
+    
+    
+    battleship_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_heavy
+		priority = 1500
+		parent = battleship_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_3
+			front_1_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_anti_air_4
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_4
+		}
+		hg_armor_piercing = 0
+		hg_attack = 0
+
+		lg_armor_piercing = 0
+		lg_attack = 1
+
+		torpedo_attack = 0
+
+		anti_air_attack = 0
+		
+		armor_value = 40
+
+		
+		surface_detection = 50
+		sub_detection = 5
+		surface_visibility = 33
+		naval_speed = 30
+		reliability = 0.92
+
+		naval_range = 6500
+		
+		max_strength = 650
+		
+
+		
+		build_cost_ic = 6000
+		resources = {
+			#oil = 2
+			steel = 2
+			chromium = 1
+		}
+		manpower = 7400
+		
+	}
+    
+    
+    
+    ### CARRIERS
+    
+    ship_hull_carrier_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_carrier
+		priority = 1000
+		parent = ship_hull_carrier_4
+		module_slots = {
+			fixed_ship_deck_slot_1 = inherit
+			fixed_ship_deck_slot_2 = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_deck_space
+					ship_carrier_armor
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_secondaries
+					ship_deck_space
+					ship_carrier_armor
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_secondaries
+					ship_deck_space
+					ship_carrier_armor
+				}
+			}
+		}
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+		}
+		
+		naval_range = 6000
+		reliability = 0.9
+		max_strength = 400
+		
+
+
+		build_cost_ic = 3650
+		resources = {
+			steel = 4
+			chromium = 3
+		}
+		manpower = 5500
+	}
+    
+    
+    carrier_5 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_carrier
+		priority = 1000
+		parent = carrier_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		carrier_size = 30
+		
+		anti_air_attack = 15
+		
+		armor_value = 15
+
+		
+		surface_detection = 40
+		sub_detection = 5
+		surface_visibility = 35
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6500
+		
+		max_strength = 400
+		
+
+
+		build_cost_ic = 6500
+		resources = {
+			#oil = 2
+			steel = 5
+			chromium = 3
+		}		
+		manpower = 6000
+	}
+    
+    
+    ### SUBMARINES
+    
+    ship_hull_submarine_5 = {
+		year = 1948
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = ship_hull_submarine_4
+		module_slots = {
+			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+				}
+			}
+			rear_1_custom_slot = front_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		sub_visibility = 8
+		naval_speed = 18
+		reliability = 0.85
+
+		naval_range = 7500
+		
+		max_strength = 40
+		
+
+		
+		build_cost_ic = 400
+		resources = {
+			steel = 3
+			chromium = 2
+		}
+		type = { 
+			submarine
+		}	
+	}
+    
+    submarine_5 = {
+		year = 1948
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_4
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 75
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 8
+		naval_speed = 18
+		reliability = 0.85
+
+		naval_range = 7000
+		
+		max_strength = 40
+		
+
+		
+		build_cost_ic = 300
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 2
+		}
+		type = { 
+			submarine
+		}		
 	}
 }
