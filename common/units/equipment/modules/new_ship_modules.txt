@@ -363,9 +363,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.2
+			naval_speed = 0.25
 			reliability = -0.2
-			sub_visibility = -0.15
+			sub_visibility = -0.25
 		}
 		
 		can_convert_from = {

@@ -252,6 +252,8 @@ technologies = {
 			}
 		}
 	}
+    
+    
 	
 	infantry_at = {
 
@@ -385,6 +387,11 @@ technologies = {
 			soft_attack = 0.1
 		}		
 
+        path = {
+			leads_to_tech = future_infantry_weapons
+			research_cost_coeff = 1
+		}
+
 
 		motorized = {
 			soft_attack = 0.1
@@ -426,6 +433,43 @@ technologies = {
 			}
 		}
 	}
+    
+    
+    future_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_4
+		}	
+		
+		
+		research_cost = 2
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1946 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+			
+			
+			modifier = {
+				num_of_military_factories > 150
+				factor = 2.5
+			}
+			
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+    
+    
 	
 	paratroopers = {
 
@@ -1722,6 +1766,12 @@ technologies = {
 		enable_equipments = {
 			mechanized_equipment_3
 		}
+        
+        path = {
+			leads_to_tech = mechanised_infantry4
+			research_cost_coeff = 1
+		}
+
 
 		mechanized = {
 			soft_attack = 0.15
@@ -1733,6 +1783,35 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    mechanised_infantry4 = {
+
+		enable_equipments = {
+			mechanized_equipment_4
+		}
+
+		#mechanized = {
+		#	soft_attack = 0.10
+		#	hard_attack = 0.10
+		#}
+
+		research_cost = 3
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1946 }
 		}
 		
 		categories = {
