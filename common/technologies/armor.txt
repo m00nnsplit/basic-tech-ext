@@ -522,7 +522,7 @@ technologies = {
 		}
         
 		path = {
-			leads_to_tech = amphibious_tank_3
+			leads_to_tech = recon_tank
 			research_cost_coeff = 1
 		}
         
@@ -582,7 +582,7 @@ technologies = {
 		}
 		
         path = {
-			leads_to_tech = amphibious_tank_3
+			leads_to_tech = recon_tank
 			research_cost_coeff = 1
 		}
         
@@ -1991,23 +1991,28 @@ technologies = {
     # ADDED BY MOD FOLLOW
     ########
     
-    amphibious_tank_3 = {
+    recon_tank = {
 
 		enable_equipments = {
-			amphibious_tank_equipment_3
+			recon_tank_equipment_1
+		}
+        
+        enable_subunits = {
+			recon_armor
+			recon_armor_air
 		}
         
         path = {
-			leads_to_tech = amphibious_tank_4
+			leads_to_tech = recon_tank_2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1945
 		
 		folder = {
 			name = armour_folder
-			position = { x = -6 y = 11 }
+			position = { x = -6 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -2024,7 +2029,7 @@ technologies = {
 						is_coastal = yes
 					}
 				}
-				factor = 0
+				factor = 0.5
 			}
 		}
 		
@@ -2035,10 +2040,10 @@ technologies = {
 		}
 	}
     
-    amphibious_tank_4 = {
+    recon_tank_2 = {
 
 		enable_equipments = {
-			amphibious_tank_equipment_4
+			recon_tank_equipment_2
 		}
 		
         
@@ -2064,7 +2069,7 @@ technologies = {
 						is_coastal = yes
 					}
 				}
-				factor = 0
+				factor = 0.5
 			}
 		}
 		
