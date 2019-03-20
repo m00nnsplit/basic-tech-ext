@@ -419,12 +419,12 @@ equipments = {
     
     ### CARRIERS
     
-    ship_hull_carrier_5 = {
+    ship_hull_carrier_4 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
-		parent = ship_hull_carrier_4
+		parent = ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -560,17 +560,17 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 8
+		sub_visibility = 7
 		naval_speed = 18
 		reliability = 0.85
 
-		naval_range = 7500
+		naval_range = 7000
 		
 		max_strength = 40
 		
 
 		
-		build_cost_ic = 400
+		build_cost_ic = 350
 		resources = {
 			steel = 3
 			chromium = 2
@@ -602,10 +602,10 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 75
+		surface_detection = 80
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 8
+		sub_visibility = 7
 		naval_speed = 18
 		reliability = 0.85
 
