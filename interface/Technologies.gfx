@@ -154,10 +154,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
 	}
 	
+    SpriteType = {
+		name = "GFX_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry4.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry3.dds"
 	}
+    
 
 	SpriteType = {
 		name = "GFX_improved_infantry_weapons_medium"
@@ -4423,6 +4429,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/basic_submarine_snorkel.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_future_ship_torpedo_launcher_medium"
+		texturefile = "gfx/interface/technologies/future_torpedo_launcher.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_advanced_ship_torpedo_launcher_medium"
 		texturefile = "gfx/interface/technologies/advanced_torpedo_launcher.dds"
@@ -4540,6 +4551,10 @@ spriteTypes = {
 	#    #  #  # #  #  #        # #  #  #  #    
 	### ###  ##  #  #  #      ##  #  # ### #    
 
+    SpriteType = {
+		name = "GFX_future_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/future_destroyer.dds"
+	}
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_light_medium"
 		texturefile = "gfx/interface/technologies/advanced_destroyer.dds"
@@ -4562,6 +4577,11 @@ spriteTypes = {
 	#    ###  #  #  #   #  ##  ###  
 	#  # #  # #  #  #    # #   #  # 
 	 ##  #  #  ##  ### ##  ### #  # 
+     
+    SpriteType = {
+		name = "GFX_future_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/future_light_cruiser.dds"
+	}
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_cruiser_medium"
 		texturefile = "gfx/interface/technologies/advanced_light_cruiser.dds"
@@ -4612,6 +4632,11 @@ spriteTypes = {
 	#    #### ###  ###   #  ##  ###  
 	#  # #  # #  # #  #  #  #   #  # 
 	 ##  #  # #  # #  # ### ### #  # 
+    
+    SpriteType = {
+		name = "GFX_future_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/future_carrier.dds"
+	}
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_carrier_medium"
 		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
@@ -4634,6 +4659,10 @@ spriteTypes = {
 	#  # #   #  #  # #    #         # #  #  #  #      # 
 	#  # ### #  #   #     #       ##  #  # ### #    ##  
 
+    SpriteType = {
+		name = "GFX_future_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/future_battleship.dds"
+	}
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_heavy_medium"
 		texturefile = "gfx/interface/technologies/advanced_battleship.dds"

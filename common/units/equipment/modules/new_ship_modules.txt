@@ -559,7 +559,7 @@ equipment_modules = {
 
 	ship_sub_snorkel_3 = {
 		category = ship_sub_snorkel
-		gfx = ship_sub_snorkel_2
+		gfx = ship_sub_snorkel_3
 		
 		multiply_stats = {
 			sub_visibility = -0.75

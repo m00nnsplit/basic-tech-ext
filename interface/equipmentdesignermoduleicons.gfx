@@ -414,6 +414,12 @@ spriteTypes = {
 		name = "GFX_SMI_light_ship_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_SMI_light_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
+    
 	spriteType = {
 		name = "GFX_SMI_cruiser_ship_engine_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
@@ -432,6 +438,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_cruiser_ship_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_SMI_cruiser_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
 	}
 
 	spriteType = {
@@ -458,6 +469,11 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_ship_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_SMI_carrier_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
 
 	spriteType = {
 		name = "GFX_SMI_heavy_ship_engine"
@@ -483,6 +499,12 @@ spriteTypes = {
 		name = "GFX_SMI_heavy_ship_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_SMI_heavy_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
+
 
 	spriteType = {
 		name = "GFX_SMI_sub_ship_engine"
@@ -507,6 +529,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_sub_ship_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_SMI_sub_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
 	}
 
 ######## Torpedo Launcher
@@ -546,6 +573,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_torpedo_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_launcher_icn_4.dds"
 	}
+    spriteType = {
+		name = "GFX_SMI_ship_torpedo_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_launcher_icn_5.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_SMI_ship_torpedo_sub_1"
@@ -565,6 +596,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_torpedo_sub_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_4.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_SMI_ship_torpedo_sub_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_5.dds"
 	}
 
 	
