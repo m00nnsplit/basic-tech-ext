@@ -138,6 +138,10 @@ spriteTypes = {
 		name = "GFX_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}	
+    SpriteType = {
+		name = "GFX_motorized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_2.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_JAP_motorized_equipment_1_medium"
@@ -2421,6 +2425,12 @@ spriteTypes = {
 		name = "GFX_subtech_rocket"
 		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
 	}
+    spriteType = {
+		name = "GFX_subtech_motorized_equipment_2"
+		textureFile = "gfx//interface//technologies//subtech_motorized_equipment_2.dds"
+	}
+    
+    
 	spriteType = {
 		name = "GFX_subtech_heavy_battleship"
 		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
