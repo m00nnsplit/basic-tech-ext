@@ -533,7 +533,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1450 height = 1090 
+					width = 1450 height = 1390 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -649,11 +649,11 @@ guiTypes = {
                     
                     instantTextBoxType = {
 						name = "armour_year8"
-						position = { x = 60 y = 1048 }
+						position = { x = 60 y = 978 } #1048 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1948"
+						text = "1947"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -757,7 +757,32 @@ guiTypes = {
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
-					}				
+					}		
+                    instantTextBoxType = {
+						name = "armour_year8_left" # pretty sure the guy who named this confused right and left
+						position = { x = 0 y = 978 } #1048 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1947"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+                    
+                    instantTextBoxType = {
+						name = "armour_year9)left"
+						position = { x = 0 y = 1118 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1949"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}                    
 				}			
 			}
 
@@ -819,6 +844,18 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}		
+                instantTextBoxType = {
+					name = "armour_subtitle_recon"
+					position = { x = -380 y = 755 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_RECON"
+					maxWidth = 250
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}	
 			}	
 
 				
@@ -849,7 +886,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1239 height = 1390 
+					width = 1239 height = 1550 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1042,6 +1079,18 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+                instantTextBoxType = {
+                    name = "artillery_year11"
+                    position = { x = 60 y = 1398 }
+                    textureFile = ""
+                    font = "hoi_36header"
+                    borderSize = {x = 0 y = 4}
+                    text = "1946"
+                    maxWidth = 130
+                    maxHeight = 32
+                    format = left
+                    Orientation = "UPPER_LEFT"
+				}
 
 				containerWindowType = {
 					name = "artillery_year_left"
@@ -1164,7 +1213,19 @@ guiTypes = {
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
-					}				
+					}		
+                    instantTextBoxType = {
+						name = "artillery_year11"
+						position = { x = 0 y = 1398 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1946"
+						maxWidth = 130
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}	                    
 				
 				}
 				

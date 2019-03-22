@@ -26,4 +26,30 @@ equipments = {
 			#oil = 2
 		}
 	}
+    
+    amphibious_mechanized_equipment_3 = {
+		year = 1945
+
+		archetype = amphibious_mechanized_equipment
+		parent = amphibious_mechanized_equipment_2
+		priority = 40
+		visual_level = 1
+
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 6
+		hardness = 0.7
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+		
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+		}
+	}
 }

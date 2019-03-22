@@ -1,0 +1,79 @@
+equipments = {
+
+	artillery_equipment_4 = {
+		year = 1945
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_3
+		priority = 50
+		visual_level = 2
+		
+		defense = 21
+		breakthrough = 9
+		soft_attack = 38
+		
+		build_cost_ic = 5
+		resources = {
+			tungsten = 1
+			steel = 4
+		}
+	}
+    
+    rocket_artillery_equipment_3 = {
+		year = 1946
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_2
+		priority = 60
+		visual_level = 1
+		
+		defense = 18
+		breakthrough = 15
+		soft_attack = 46
+		
+		build_cost_ic = 6
+		resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+    
+    
+    anti_tank_equipment_4 = {
+		year = 1946
+
+		archetype = anti_tank_equipment
+		parent = anti_tank_equipment_3
+		priority = 90
+		visual_level = 2
+		
+		hard_attack = 38
+		ap_attack = 128
+		
+		build_cost_ic = 7
+		resources = {
+			tungsten = 3
+			steel = 3
+		}
+	}
+    
+    
+    anti_air_equipment_4 = {
+		year = 1946
+
+		archetype = anti_air_equipment
+		parent = anti_air_equipment_3
+		priority = 80
+		visual_level = 2
+		
+		soft_attack = 4.5
+		hard_attack = 19
+		ap_attack = 105
+		air_attack = 39
+
+		build_cost_ic = 7
+		resources = {
+			steel = 3
+		}
+	}
+}

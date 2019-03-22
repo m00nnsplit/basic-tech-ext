@@ -309,6 +309,11 @@ technologies = {
 	
 	artillery5 = {
 
+        path = {
+			leads_to_tech = artillery7
+			research_cost_coeff = 1
+		}
+        
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -351,6 +356,46 @@ technologies = {
 			}
 		}
 	}
+    
+    artillery7 = {
+
+        enable_equipments = {
+			artillery_equipment_4
+		}
+		
+		research_cost = 1
+
+		start_year = 1945
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.6"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1947.1.1"
+			}
+		}
+	}
+    
 
 	mountain_gun = {
 
@@ -499,6 +544,11 @@ technologies = {
 	
 	rocket_artillery4 = {
 	
+        path = {
+			leads_to_tech = rocket_artillery7
+			research_cost_coeff = 1
+		}
+        
 		enable_equipments = {
 			rocket_artillery_equipment_2
 		}
@@ -535,6 +585,41 @@ technologies = {
 			rocketry
 		}
 	}
+    
+    rocket_artillery7 = {
+	
+        
+		enable_equipments = {
+			rocket_artillery_equipment_3
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.3
+		}
+
+		research_cost = 1
+
+		start_year = 1943
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+    
+    
 	
 	interwar_antiair = {
 
@@ -811,6 +896,11 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_anti_air_4
 		}
+        
+        path = {
+			leads_to_tech = antiair8
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1
 
@@ -843,6 +933,57 @@ technologies = {
 		}
 	}
 	
+    antiair8 = {
+
+		enable_equipments = {
+			anti_air_equipment_4
+		}
+
+		static_anti_air_damage_factor = 0.1
+		
+		#enable_equipment_modules = { 
+		#	ship_anti_air_4
+		#}
+        
+		
+		research_cost = 1
+
+		start_year = 1946
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+    
+    
+    
+    
+    
+    
+    
+    
 	interwar_antitank = {
 
 		enable_equipments = {
@@ -1217,6 +1358,11 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_3
 		}	
+        
+        path = {
+			leads_to_tech = antitank8
+			research_cost_coeff = 1
+		}
 			
 		#anti_tank = {
 		#	hard_attack = 0.1
@@ -1269,6 +1415,50 @@ technologies = {
 						estimated_intel_max_armor = {
 							tag = PREV
 							value > 35
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+    
+    
+    
+    antitank8 = {
+			
+		enable_equipments = {
+			anti_tank_equipment_4
+		}	
+		
+		research_cost = 1
+
+		start_year = 1946
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1946.1.1"
+			}
+            
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 55
 						}
 					}
 				}

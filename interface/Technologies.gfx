@@ -180,6 +180,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}	
 	
+    SpriteType = {
+		name = "GFX_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_4.dds"
+	}	
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
@@ -217,6 +221,11 @@ spriteTypes = {
 	
 	### artillery tech	###
 
+    SpriteType = {
+		name = "GFX_antitank8_medium"
+		texturefile = "gfx/interface/technologies/AT_4_allies.dds"
+	}	
+    
 	SpriteType = {
 		name = "GFX_antitank5_medium"
 		texturefile = "gfx/interface/technologies/AT_3_allies.dds"
@@ -241,6 +250,12 @@ spriteTypes = {
 		name = "GFX_antitank1_medium"
 		texturefile = "gfx/interface/technologies/antitank2.dds"
 	}	
+    
+    
+    SpriteType = {
+		name = "GFX_antiair8_medium"
+		texturefile = "gfx/interface/technologies/AA_4_allies.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_antiair5_medium"
@@ -267,6 +282,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/antiair1.dds"
 	}	
 	
+    
+    SpriteType = {
+		name = "GFX_rocket_artillery7_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_3_allies.dds"
+	}	
+    
 	SpriteType = {
 		name = "GFX_rocket_artillery4_medium"
 		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
@@ -282,6 +303,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
 	}	
 	
+    
+    SpriteType = {
+		name = "GFX_artillery7_medium"
+		texturefile = "gfx/interface/technologies/Art_4_comintern.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_artillery5_medium"
 		texturefile = "gfx/interface/technologies/artillery5.dds"
@@ -1596,6 +1623,26 @@ spriteTypes = {
 		name = "GFX_advanced_computing_machine_medium"
 		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
 	}	
+    
+    SpriteType = {
+		name = "GFX_programmable_computer_medium"
+		texturefile = "gfx/interface/technologies/programmable_computer.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_programmable_computer2_medium"
+		texturefile = "gfx/interface/technologies/programmable_computer2.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_programmable_computer3_medium"
+		texturefile = "gfx/interface/technologies/programmable_computer3.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_programmable_computer4_medium"
+		texturefile = "gfx/interface/technologies/programmable_computer4.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_basic_encryption_medium"
@@ -1610,6 +1657,38 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_advanced_encryption_medium"
 		texturefile = "gfx/interface/technologies/advanced_encryption.dds"
+	}
+    SpriteType = {
+		name = "GFX_encryption4_medium"
+		texturefile = "gfx/interface/technologies/encryption4.dds"
+	}	
+    SpriteType = {
+		name = "GFX_decryption4_medium"
+		texturefile = "gfx/interface/technologies/decryption4.dds"
+	}	
+    SpriteType = {
+		name = "GFX_encryption5_medium"
+		texturefile = "gfx/interface/technologies/encryption5.dds"
+	}	
+    SpriteType = {
+		name = "GFX_decryption5_medium"
+		texturefile = "gfx/interface/technologies/decryption5.dds"
+	}	
+    SpriteType = {
+		name = "GFX_encryption6_medium"
+		texturefile = "gfx/interface/technologies/encryption6.dds"
+	}	
+    SpriteType = {
+		name = "GFX_decryption6_medium"
+		texturefile = "gfx/interface/technologies/decryption6.dds"
+	}	
+    SpriteType = {
+		name = "GFX_encryption7_medium"
+		texturefile = "gfx/interface/technologies/encryption7.dds"
+	}	
+    SpriteType = {
+		name = "GFX_decryption7_medium"
+		texturefile = "gfx/interface/technologies/decryption7.dds"
 	}	
 	
 	SpriteType = {
@@ -1659,6 +1738,21 @@ spriteTypes = {
 	
 	### INDUSRTY TECH ###
 	
+    SpriteType = {
+		name = "GFX_excavation8_medium"
+		texturefile = "gfx/interface/technologies/excavation8.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_excavation7_medium"
+		texturefile = "gfx/interface/technologies/excavation7.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_excavation6_medium"
+		texturefile = "gfx/interface/technologies/excavation6.dds"
+	}	
+    
 	SpriteType = {
 		name = "GFX_excavation5_medium"
 		texturefile = "gfx/interface/technologies/excavation5.dds"
@@ -1713,7 +1807,22 @@ spriteTypes = {
 		name = "GFX_streamlined_line_medium"
 		texturefile = "gfx/interface/technologies/streamlined_line.dds"
 	}	
-	
+    
+    SpriteType = {
+		name = "GFX_faster_line_medium"
+		texturefile = "gfx/interface/technologies/faster_line.dds"
+	}	
+    SpriteType = {
+		name = "GFX_faster_line2_medium"
+		texturefile = "gfx/interface/technologies/faster_line2.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_faster_line3_medium"
+		texturefile = "gfx/interface/technologies/faster_line3.dds"
+	}	
+    
+    
 	SpriteType = {
 		name = "GFX_improved_equipment_conversion_medium"
 		texturefile = "gfx/interface/technologies/equipment_conversion.dds"
@@ -1773,6 +1882,21 @@ spriteTypes = {
 		name = "GFX_dispersed_industry5_medium"
 		texturefile = "gfx/interface/technologies/dispersed_industry5.dds"
 	}	
+    
+    SpriteType = {
+		name = "GFX_more_industry_medium"
+		texturefile = "gfx/interface/technologies/more_industry.dds"
+	}	
+    SpriteType = {
+		name = "GFX_more_industry2_medium"
+		texturefile = "gfx/interface/technologies/more_industry2.dds"
+	}
+    SpriteType = {
+		name = "GFX_more_industry3_medium"
+		texturefile = "gfx/interface/technologies/more_industry3.dds"
+	}
+    
+    
 	SpriteType = {
 		name = "GFX_fuel_silos_medium"
 		texturefile = "gfx/interface/technologies/fuel_silos.dds"
@@ -1797,6 +1921,18 @@ spriteTypes = {
 		name = "GFX_fuel_refining5_medium"
 		texturefile = "gfx/interface/technologies/fuel_refining5.dds"
 	}			
+    SpriteType = {
+		name = "GFX_fuel_refining6_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining6.dds"
+	}	
+    SpriteType = {
+		name = "GFX_fuel_refining7_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining7.dds"
+	}	
+    SpriteType = {
+		name = "GFX_fuel_refining8_medium"
+		texturefile = "gfx/interface/technologies/fuel_refining8.dds"
+	}	
 	SpriteType = {
 		name = "GFX_synth_oil_experiments_medium"
 		texturefile = "gfx/interface/technologies/synth_oil_experiments.dds"
@@ -2210,6 +2346,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/AA_1_axis.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_GER_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_4.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_GER_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_3.dds"
@@ -3507,6 +3648,15 @@ spriteTypes = {
 		name = "GFX_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/main_battle_tank.dds"
 	}
+    SpriteType = {
+		name = "GFX_main_battle_tank_2_medium"
+		texturefile = "gfx/interface/technologies/main_battle_tank_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_main_battle_tank_3_medium"
+		texturefile = "gfx/interface/technologies/main_battle_tank_2.dds"
+	}
+
 
 	SpriteType = {
 		name = "GFX_basic_heavy_tank_medium"
@@ -3526,6 +3676,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/super_heavy_tank.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_super_heavy_tank_2_medium"
+		texturefile = "gfx/interface/technologies/super_heavy_tank_2.dds"
+	}
+    
+    
+    SpriteType = {
+		name = "GFX_recon_tank_medium"
+		texturefile = "gfx/interface/technologies/recon_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_recon_tank_2_medium"
+		texturefile = "gfx/interface/technologies/recon_tank_2.dds"
 	}
 	
 	### Generic Aircrafts ###	
@@ -4516,6 +4681,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_amphibious_mechanized_infantry_2_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_mech_2.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/generic_amphibious_mech_3.dds"
 	}
 
 	SpriteType = {

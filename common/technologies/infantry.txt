@@ -1710,7 +1710,11 @@ technologies = {
 		enable_equipments = {
 			amphibious_mechanized_equipment_2
 		}
-
+        
+        path = {
+			leads_to_tech = amphibious_mechanized_infantry_3
+			research_cost_coeff = 1
+		}
 		
 
 		research_cost = 2
@@ -1731,6 +1735,34 @@ technologies = {
 			factor = 2
 		}
 	}
+    
+    amphibious_mechanized_infantry_3 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_3
+		}
+
+		
+
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1945 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+    
 	
 	mechanised_infantry2 = {
 
