@@ -8,6 +8,7 @@
  amphibious_mechanized_equipment_3: "Advanced Amphibious Tractor"
  amphibious_mechanized_equipment_3_short: "Advanced Amtrac"
  amphibious_mechanized_equipment_3_desc: "Improvements in the amphibious APC."
+
  super_heavy_tank_equipment_2: "Super Heavy Tank II"
  super_heavy_tank_equipment_2_short: "SH. Tank II"
  super_heavy_tank_equipment_2_desc: "Updates to the super-heavy tank concept."
@@ -44,6 +45,7 @@
  modern_tank_aa_equipment_3:0 "Modern SP Anti-Air III"
  modern_tank_aa_equipment_3_short:0 "Modern AA III"
  modern_tank_aa_equipment_3_desc:0 "Self-propelled Anti-Air variant of the MBT III."
+ 
  ARMOUR_TITLE_RECON: "RECONNAISSANCE"
  recon_tank_equipment:0 "Reconnaissance Tank"
  recon_tank_equipment_short:0 "Recon Tank"
@@ -53,6 +55,7 @@
  recon_tank_equipment_2:0 "Reconnaissance Tank II"
  recon_tank_equipment_2_short:0 "Recon Tank II"
  recon_tank_equipment_2_desc:0 "Improvements of the reconnaissance tank."
+ 
  artillery_equipment_4: "Future Artillery"
  artillery_equipment_4_short: "Artillery IV"
  artillery_equipment_4_desc: "Yet better artillery."
@@ -66,8 +69,23 @@
  anti_air_equipment_4_short: "Anti-Air IV"
  anti_air_equipment_4_desc: "Yet better Anti-Air."
  
+ GER_infantry_equipment_4: "Sturmgewehr 45"
+ GER_infantry_equipment_4_short: "StG-45"
+ GER_infantry_equipment_4_desc: "While developing a low-cost version of the Sturmgewehr (the Gerät 06), Mauser engineers managed to convert the rifle from gas operation to a radically simpler roller-delayed blowback, creating the Gerät 06H. The surrender prevented its adoption as the StG-45(M), but the same mechanism was eventually used in the H&K G3 series of rifles."
+ GER_mechanized_equipment_4:0 "Sonderkraftfahrzeug 255" # fictional
+ GER_mechanized_equipment_4_short:0 "Sd.Kfz. 255"
+ GER_amphibious_mechanized_equipment_3: "Land-Wasser-Schlepper III"
+ GER_amphibious_mechanized_equipment_3_short: "LWS III"
+ GER_super_heavy_tank_equipment_2:0 "Entwicklung E-100"
+ GER_super_heavy_tank_equipment_2_short:0 "E-100"
+ GER_super_heavy_tank_equipment_2_desc:0 "The E-100 was the super-heavy (or just heavy, given the standards of Nazi Germany) part of the Entwicklung series, an attempt at standardizing the various tank models. Work started on a E-100 prototype (essentially in parallel to the Maus), but nothing significant turned up before the surrender."
+ GER_anti_air_equipment_4: "10.5 cm FlaK 38"
+ GER_anti_air_equipment_4_short: "10.5 cm FlaK 38"
+ 
+ 
  USA_infantry_equipment_4:0 "T25"
  USA_infantry_equipment_4_short:0 "T25"
+ USA_infantry_equipment_4_desc:0 "The US didn't move on from full-sized rifles to assault rifles before 1964, but the US Army did work on replacements. By 1945, a prototype of the proposed T25 had been completed : a 3.5kg Garand-based, select-fire, tilting bolt rifle with a detachable box magazine and firing the 7.62x47 T65 cartridge. These efforts (and this cartridge) would lead towards the M14 and 7.62 NATO."
  USA_mechanized_equipment_4:0 "M44"
  USA_mechanized_equipment_4_short:0 "M44"
  USA_amphibious_mechanized_equipment_3:0 "LVT(A)-5"
@@ -97,6 +115,7 @@
  
  ENG_infantry_equipment_4:0 "Rifle No.9 Mk1"
  ENG_infantry_equipment_4_short:0 "EM-2"
+ ENG_infantry_equipment_4_desc:0 "The EM-2 was a bullpup assault rifle firing the intermediate .280 cartridge, adopted in 1951 by the British Army and then quickly un-adopted when the USA objected."
  ENG_mechanized_equipment_4:0 "FV1611 Humber Pig"
  ENG_mechanized_equipment_4_short:0 "Humber Pig"
  ENG_super_heavy_tank_equipment_2:0 "FV4005 Stage I"
@@ -124,3 +143,18 @@
  
  SOV_infantry_equipment_4:0 "Avtomat Kalashnikova"
  SOV_infantry_equipment_4_short:0 "AK-47"
+ SOV_infantry_equipment_4_desc:0 "The AK was designed by Mikhail Kalashnikov towards and after the end of World War 2, adopted in 1947, and put in mass production in 1949. The production had many problems, and it is not before the AKM (modernised) that the rifle truly took over the world. It is often said that the AK is a copy of the Sturmgewehr, but its operation is markedly different, and perhaps more inspired by the US M1 Garand. It also shows a difference in doctrine: the StG is a rifle replacement, whereas the AK was originally an SMG replacement, hence its higher rate of fire."
+ SOV_modern_tank_equipment_2:0 "T-54A"
+ SOV_modern_tank_equipment_2_short:0 "T-54A"
+ SOV_modern_tank_equipment_3:0 "T-55"
+ SOV_modern_tank_equipment_3_short:0 "T-55"
+ 
+ JAP_super_heavy_tank_equipment_2:0 "Type 2605"
+ JAP_super_heavy_tank_equipment_2_short:0 "Type 2605"
+ 
+ FRA_infantry_equipment_4:0 "AME 49"
+ FRA_infantry_equipment_4_short:0 "CÉAM Modèle 1950"
+ FRA_infantry_equipment_4_desc:0 "A prototype in .30 Carbine built by Ludwig Vergrimler, who had co-designed the StG-45(M), at the CÉAM. Lack of funds (and urgency due to the war in Indochina) historically caused its end. A more historically-accurate (but less fun) weapon for this time slot would be the MAT-49, a SMG derived from the Sten which was used until the adoption of the FAMAS."
+ FRA_mechanized_equipment_4:0 "AMX-VTT"
+ FRA_mechanized_equipment_4_short:0 "AMX-VTT"
+ FRA_mechanized_equipment_4_desc:0 "Basically the same as the AMX-VCI. Don't look at me, look at Paradox. They're the ones making weird teh trees requiring them to put a 1957 vehicule in 1944."

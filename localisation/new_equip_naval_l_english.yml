@@ -3,6 +3,8 @@
  submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
  ship_hull_submarine_5:1 "1948 Submarine Hull"
  ship_hull_submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ ship_sub_snorkel_3: "Advanced Submarine Schnorkel"
+ ship_sub_snorkel_3_desc: "A yet stealthier schnorkel."
  carrier_5: "Carrier V"
  carrier_5_desc: "Further carrier advancements"
  ship_hull_carrier_4: "1948 Carrier Hull"

@@ -2366,6 +2366,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_1.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_GER_infantry4_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_4.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_GER_infantry3_medium"
 		texturefile = "gfx/interface/technologies/GER_infantry_equipment_3.dds"
@@ -2386,6 +2391,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/fuel_medium.dds"
 	}
 	
+    SpriteType = {
+		name = "GFX_GER_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_4.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_GER_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/GER_infantry_equipment_3.dds"
@@ -2961,6 +2971,10 @@ spriteTypes = {
 		name = "GFX_GER_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/ger_superheavy_tank.dds"
 	}
+    SpriteType = {
+		name = "GFX_GER_super_heavy_tank_2_medium"
+		texturefile = "gfx/interface/technologies/ger_superheavy_tank_2.dds"
+	}
 
 ### Japanese equipment ###
 
@@ -3112,6 +3126,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_main_battle_tank.dds"
+	}	
+    SpriteType = {
+		name = "GFX_SOV_main_battle_tank_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_main_battle_tank_2.dds"
+	}	
+    SpriteType = {
+		name = "GFX_SOV_main_battle_tank_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_main_battle_tank_3.dds"
 	}	
 
 	SpriteType = {
@@ -3295,6 +3317,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_2.dds"
 	}			
 		
+       SpriteType = {
+		name = "GFX_JAP_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_4.dds"
+	}
 	SpriteType = {
 		name = "GFX_JAP_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_3.dds"
@@ -3590,6 +3616,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/USA_main_battle_tank.dds"
+	}	
+    SpriteType = {
+		name = "GFX_USA_main_battle_tank_2_medium"
+		texturefile = "gfx/interface/technologies/USA_main_battle_tank_2.dds"
+	}	
+    SpriteType = {
+		name = "GFX_USA_main_battle_tank_3_medium"
+		texturefile = "gfx/interface/technologies/USA_main_battle_tank_3.dds"
 	}	
 
 	SpriteType = {
