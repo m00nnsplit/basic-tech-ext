@@ -425,9 +425,18 @@ technologies = {
 			leads_to_tech = jet_fighter2
 			research_cost_coeff = 1
 		}
+        
+        path = {
+			leads_to_tech = jet_multirole1
+			research_cost_coeff = 1
+		}
 
 		dependencies = {
 			jet_engines = 1
+		}
+        
+        sub_technologies = {
+			cv_jet_fighter1
 		}
 		
 		research_cost = 2
@@ -455,13 +464,37 @@ technologies = {
 			}
 		}
 	}
+    
+    cv_jet_fighter1 = {
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1945
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+    }
 	
 	jet_fighter2 = {
 
 		enable_equipments = {
 			jet_fighter_equipment_2
 		}
-		
+        
+		sub_technologies = {
+			cv_jet_fighter2
+		}
+        
+        #path = {
+		#	leads_to_tech = jet_interceptor
+		#	research_cost_coeff = 1.5
+		#}
+        
 		research_cost = 2
 		start_year = 1950
 
@@ -479,7 +512,132 @@ technologies = {
 			factor = 1
 		}
 	}
+    cv_jet_fighter2 = {
+
+		enable_equipments = {
+			cv_jet_fighter_equipment_2
+		}
+        
+        path = {
+			leads_to_tech = jet_multirole2
+			research_cost_coeff = 1.1
+		}
 	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1950
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+    }
+	
+    
+    jet_multirole1 = {
+
+		enable_equipments = {
+			jet_multirole_equipment_1
+		}
+        
+        path = {
+			leads_to_tech = jet_multirole2
+			research_cost_coeff = 1
+		}
+        
+		sub_technologies = {
+			cv_jet_multirole1
+		}
+        
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    cv_jet_multirole1 = {
+
+		enable_equipments = {
+			cv_jet_multirole_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1945
+		
+		categories = {
+			naval_air
+		}
+    }
+    
+    
+    jet_multirole2 = {
+
+		enable_equipments = {
+			jet_multirole_equipment_2
+		}
+        
+		sub_technologies = {
+			cv_jet_multirole2
+		}
+        
+        path = {
+			leads_to_tech = jet_fighter2
+			research_cost_coeff = 1.1
+		}
+        
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    cv_jet_multirole2 = {
+
+		enable_equipments = {
+			cv_jet_multirole_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1950
+		
+		categories = {
+			naval_air
+		}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 	
 	CAS1 = {
 
@@ -1087,6 +1245,14 @@ technologies = {
 		}
 	}
 	
+    
+    
+    
+    
+    
+    
+    
+    
 	early_bomber = {
 
 		enable_equipments = {
@@ -1184,10 +1350,10 @@ technologies = {
 			heavy_fighter_equipment_3
 		}
 		
-		#path = {
-		#	leads_to_tech = jet_fighter1
-		#	research_cost_coeff = 1.2
-		#}
+		path = {
+			leads_to_tech = jet_interceptor
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1944
@@ -1206,6 +1372,39 @@ technologies = {
 			factor = 1
 		}
 	}
+    
+    jet_interceptor = {
+
+		enable_equipments = {
+			jet_interceptor_equipment_1
+		}
+		
+		#path = {
+		#	leads_to_tech = jet_fighter2
+		#	research_cost_coeff = 1.5
+		#}
+
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    
+    
+    
+    
 	
 	tactical_bomber1 = {
 

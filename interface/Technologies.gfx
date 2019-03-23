@@ -3844,6 +3844,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
 	}	
 
+     SpriteType = {
+		name = "GFX_jet_interceptor_medium"
+		texturefile = "gfx/interface/technologies/jet_interceptor.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_jet_multirole2_medium"
+		texturefile = "gfx/interface/technologies/jet_multirole2.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_jet_multirole1_medium"
+		texturefile = "gfx/interface/technologies/jet_multirole1.dds"
+	}	
+
+    
 	SpriteType = {
 		name = "GFX_jet_fighter2_medium"
 		texturefile = "gfx/interface/technologies/jet_fighter2.dds"

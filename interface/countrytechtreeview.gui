@@ -2086,6 +2086,20 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "nav_bomber_equipment_desc"
 			}
+            
+            instantTextBoxType = {
+				name = "airtech_subtitle_multirole"
+				position = { x = 110 y = 820 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "AIR_TITLE_MULTIROLE"
+				maxWidth = 300
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "Multirole_equipment_desc"
+			}
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_h_fighter"
@@ -2132,8 +2146,8 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=390 y=807 }
-				size = { width = 1475 height = 350 }
+				position = { x=135 y=807 }
+				size = { width = 1720 height = 350 }
 				clipping = no
 	
 				background = {
