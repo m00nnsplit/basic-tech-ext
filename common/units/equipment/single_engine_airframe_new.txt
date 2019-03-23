@@ -62,6 +62,7 @@ equipments = {
 		interface_overview_category_index = 0
 
 		upgrades = {
+            #plane_gun_upgrade
 			plane_strike_upgrade
 			plane_range_upgrade
 			plane_engine_upgrade

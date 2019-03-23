@@ -73,6 +73,8 @@
  anti_air_equipment_4_desc: "Yet better Anti-Air."
  
  AIR_TITLE_MULTIROLE: "Strike Fighter"
+ plane_strike_upgrade:"Weapons"
+ plane_strike_upgrade_desc:"For multiroles, mainly ground and naval."
  Multirole_equipment_desc: "Strike Fighter is the modern name for a class of multirole aircraft that can perform as ground attack aircraft and light fighters. They also fulfill the naval bomber role."
  cv_jet_fighter_equipment_1:"Carrier Jet Fighter I"
  cv_jet_fighter_equipment_1_short:"CV Jet Fighter I"
