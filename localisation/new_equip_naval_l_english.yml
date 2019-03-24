@@ -15,3 +15,14 @@
  ship_hull_cruiser_5_desc: "Yet better cruisers !"
  ship_hull_light_5: "1948 Destroyer Hull"
  ship_hull_light_5_desc: "Yet better destroyers !"
+ 
+ ship_depth_charge_5: "Depth Charge Mortar V"
+ ship_depth_charge_5_desc: "Future Depth Charge Mortar"
+ ship_light_battery_5bis: "130mm Autoloader RF Cannon"
+ ship_light_battery_5bis_desc: "Yet improved performance."
+ 
+ ship_heavy_battery_5bis: "43 cm Cannon"
+ ship_heavy_battery_5bis_desc: "An upgrade approaching super-heavy levels."
+ ship_super_heavy_battery_2: "49 cm Cannon"
+ ship_super_heavy_battery_2_desc: "A yet more ludicrous gun to replace the 46cm super heavy battery."
+ 

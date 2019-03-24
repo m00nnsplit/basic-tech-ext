@@ -151,6 +151,19 @@ spriteTypes = {
 		name = "GFX_SMI_ship_light_battery_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_battery_icn_5.dds"
 	}
+    
+    ##DP Light Battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_battery_icn_6.dds"
+	}
+    
+    # as one might notice, the DP battery already takes the slot 5, so this is 5bis.
+    # in case one isn't interested in AA capability
+    spriteType = {
+		name = "GFX_SMI_ship_light_battery_5bis"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_battery_icn_5bis.dds"
+	}
 
 	
 ######## Ship Light Medium battery
@@ -183,6 +196,11 @@ spriteTypes = {
 		name = "GFX_SMI_ship_light_medium_battery_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_light_battery_icn_4.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_light_battery_icn_5.dds"
+	}
 	
 ######## Ship Medium battery
 
@@ -214,6 +232,11 @@ spriteTypes = {
 		name = "GFX_SMI_ship_medium_battery_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_battery_icn_4.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_SMI_ship_medium_battery_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_battery_icn_5.dds"
+	}
 
 ######## Ship Heavy battery
 
@@ -227,6 +250,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_super_heavy_battery"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn.dds"
+	}
+
+    spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/super_heavy_battery_2_icn.dds"
 	}
 	
 	spriteType = {
@@ -249,9 +277,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn_4.dds"
 	}
 
-	spriteType = {
+    spriteType = {
 		name = "GFX_SMI_ship_heavy_battery_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn_5.dds"
+	}
+    
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_5bis"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn_5bis.dds"
 	}
 	
 
@@ -321,6 +354,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_depth_charge_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge_icn_4.dds"
+	}
+    spriteType = {
+		name = "GFX_SMI_ship_depth_charge_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge_icn_5.dds"
 	}
 
 ######## Radar

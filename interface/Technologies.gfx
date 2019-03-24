@@ -4520,6 +4520,12 @@ spriteTypes = {
 		name = "GFX_basic_fire_control_system_medium"
 		texturefile = "gfx/interface/technologies/basic_fire_control_system.dds"
 	}
+    
+    SpriteType = {
+		name = "GFX_future_heavy_battery_medium"
+		texturefile = "gfx/interface/technologies/future_heavy_battery.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_advanced_heavy_battery_medium"
 		texturefile = "gfx/interface/technologies/advanced_heavy_battery.dds"
@@ -4534,6 +4540,12 @@ spriteTypes = {
 		name = "GFX_basic_heavy_battery_medium"
 		texturefile = "gfx/interface/technologies/basic_heavy_battery.dds"
 	}
+    
+    SpriteType = {
+		name = "GFX_future_light_battery_medium"
+		texturefile = "gfx/interface/technologies/future_light_battery.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_advanced_light_battery_medium"
 		texturefile = "gfx/interface/technologies/advanced_light_battery.dds"
@@ -4549,6 +4561,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/basic_light_battery.dds"
 	}
 
+    
+    SpriteType = {
+		name = "GFX_future_medium_battery_medium"
+		texturefile = "gfx/interface/technologies/future_medium_battery.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_advanced_medium_battery_medium"
 		texturefile = "gfx/interface/technologies/advanced_medium_battery.dds"
@@ -4562,6 +4580,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_basic_medium_battery_medium"
 		texturefile = "gfx/interface/technologies/basic_medium_battery.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_future_depth_charges_medium"
+		texturefile = "gfx/interface/technologies/future_depth_charges.dds"
 	}
 
 	SpriteType = {
@@ -4599,6 +4622,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/improved_sonar.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_advanced_light_shell_medium"
+		texturefile = "gfx/interface/technologies/advanced_light_shell.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_improved_light_shell_medium"
 		texturefile = "gfx/interface/technologies/improved_light_shell.dds"
@@ -4609,6 +4637,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/basic_light_shell.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_advanced_medium_shell_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_shell.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_improved_medium_shell_medium"
 		texturefile = "gfx/interface/technologies/improved_medium_shell.dds"
@@ -4619,6 +4652,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/basic_medium_shell.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_advanced_heavy_shell_medium"
+		texturefile = "gfx/interface/technologies/advanced_heavy_shell.dds"
+	}
+    
 	SpriteType = {
 		name = "GFX_improved_heavy_shell_medium"
 		texturefile = "gfx/interface/technologies/improved_heavy_shell.dds"

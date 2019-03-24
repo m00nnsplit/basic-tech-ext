@@ -380,7 +380,11 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_depth_charge_4
 		}
-
+        path = {
+			leads_to_tech = future_depth_charges
+			research_cost_coeff = 1
+		}
+        
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
@@ -409,7 +413,7 @@ technologies = {
 		}
 	}
     
-    modern_depth_charges = {
+    future_depth_charges = {
 
 		enable_equipment_modules = { 
 			ship_depth_charge_5
@@ -2289,7 +2293,10 @@ early_ship_hull_carrier = {
 			ship_light_battery_4
 		}
 		
-
+           path = {
+			leads_to_tech = future_light_battery
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalfolder
@@ -2308,6 +2315,37 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
+    
+    future_light_battery = {
+		
+		research_cost = 1
+
+		start_year = 1948
+
+		enable_equipment_modules = { 
+			ship_light_battery_5bis
+		}
+		
+
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = future_ship_hull_light
+				factor = 20
+			}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
 
 	basic_light_shell = {
 		
@@ -2371,7 +2409,11 @@ early_ship_hull_carrier = {
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
 		research_cost = 2.5
-
+        
+        path = {
+			leads_to_tech = advanced_light_shell
+			research_cost_coeff = 1
+		}
 		start_year = 1942
 		
 		destroyer = {
@@ -2402,6 +2444,58 @@ early_ship_hull_carrier = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 10
+			}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
+    advanced_light_shell = {
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+
+		start_year = 1950
+		
+		destroyer = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		light_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battle_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2498,6 +2592,11 @@ early_ship_hull_carrier = {
 
 		start_year = 1944
 
+        path = {
+			leads_to_tech = future_medium_battery
+			research_cost_coeff = 1
+		}
+        
 		enable_equipment_modules = { 
 			ship_medium_battery_4
 			ship_light_medium_battery_4
@@ -2518,6 +2617,38 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
+    future_medium_battery = {
+		
+		research_cost = 1
+
+		start_year = 1948
+
+		enable_equipment_modules = { 
+			ship_medium_battery_5
+			ship_light_medium_battery_5
+		}
+		
+
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
+    
+    
+    
+    
+    
 	basic_medium_shell = {
 		
 		xp_research_type = navy
@@ -2567,7 +2698,11 @@ early_ship_hull_carrier = {
 
 		start_year = 1940
 		
-		
+		path = {
+			leads_to_tech = advanced_medium_shell
+			research_cost_coeff = 1
+		}
+        
 		light_cruiser = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -2595,6 +2730,46 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
+    
+    advanced_medium_shell = {
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+
+		start_year = 1950
+		
+		
+		light_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		heavy_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 7
+			}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
+    
 
 	basic_heavy_battery = {
 		
@@ -2684,12 +2859,19 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
+    
+    
 	advanced_heavy_battery = {
 		
 		research_cost = 1
 
 		start_year = 1944
-
+        
+        path = {
+			leads_to_tech = future_heavy_battery
+			research_cost_coeff = 1
+		}
+        
 		enable_equipment_modules = { 
 			ship_heavy_battery_4
 		}
@@ -2720,6 +2902,49 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
+    
+    future_heavy_battery = {
+		
+		research_cost = 1
+
+		start_year = 1948
+        
+        
+		enable_equipment_modules = { 
+			ship_heavy_battery_5bis
+			ship_super_heavy_battery_2
+		}
+		
+
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = advanced_ship_hull_heavy
+				factor = 20
+			}
+			modifier = {
+				OR = {
+					tag = GER
+					tag = JAP
+				}
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
+    
+    
+    
 	basic_heavy_shell = {
 		
 		xp_research_type = navy
@@ -2770,7 +2995,11 @@ early_ship_hull_carrier = {
 		research_cost = 2.5
 
 		start_year = 1942
-		
+        
+		path = {
+			leads_to_tech = advanced_heavy_shell
+			research_cost_coeff = 1
+		}
 		
 		battleship = {
 			hg_attack = 0.05
@@ -2784,6 +3013,44 @@ early_ship_hull_carrier = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 3 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				has_war = yes
+				factor = 5
+			}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+    
+    advanced_heavy_shell = {
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+
+		start_year = 1950
+		
+		
+		battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battle_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 3 y = 28 }
 		}
 		
 		ai_will_do = {
