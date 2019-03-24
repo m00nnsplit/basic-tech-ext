@@ -1607,6 +1607,16 @@ spriteTypes = {
 		name = "GFX_advanced_centimetric_radar_medium"
 		texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
 	}	
+    
+    SpriteType = {
+		name = "GFX_better_radar_medium"
+		texturefile = "gfx/interface/technologies/radar.dds"
+	}	
+    
+    SpriteType = {
+		name = "GFX_better_radar_2_medium"
+		texturefile = "gfx/interface/technologies/radar.dds"
+	}	
 	
 	SpriteType = {
 		name = "GFX_mechanical_computing_medium"

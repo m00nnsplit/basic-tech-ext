@@ -311,6 +311,11 @@ technologies = {
 			building = radar_station
 			level = 6
 		}
+        
+        path = {
+			leads_to_tech = better_radar 
+			research_cost_coeff = 1
+		}
 
 		enable_equipment_modules = { 
 			ship_radar_4
@@ -342,6 +347,82 @@ technologies = {
 			radar_tech
 		}
 	}
+    
+    better_radar = {
+
+		# radar boost in air/sea combat depends on radar level
+
+		enable_equipment_modules = { 
+			ship_radar_5
+		}
+        
+		path = {
+			leads_to_tech = better_radar_2 
+			research_cost_coeff = 1
+		}
+        
+		static_anti_air_hit_chance_factor = 0.2
+		
+		research_cost = 2.5
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 5
+			}
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+    
+    better_radar_2 = {
+
+		# radar boost in air/sea combat depends on radar level
+
+		enable_equipment_modules = { 
+			ship_radar_6
+		}
+		
+		static_anti_air_hit_chance_factor = 0.2
+		
+		research_cost = 2.5
+		start_year = 1950
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 5
+			}
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+	
 	
 	mechanical_computing = {
 

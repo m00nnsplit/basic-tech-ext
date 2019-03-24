@@ -386,9 +386,19 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_icn_3.dds"
 	}
 
-		spriteType = {
+	spriteType = {
 		name = "GFX_SMI_ship_radar_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_icn_4.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_SMI_ship_radar_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_icn_5.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_SMI_ship_radar_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_icn_6.dds"
 	}
 	
 ######## Sonar
@@ -701,6 +711,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_anti_air_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_4.dds"
+	}
+    spriteType = {
+		name = "GFX_SMI_ship_anti_air_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_5.dds"
 	}
 
 ######## Airplane Launcher	

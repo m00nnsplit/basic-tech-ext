@@ -254,12 +254,12 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 5
-			build_cost_ic = 200
+			build_cost_ic = 230
 		}
 		
 		multiply_stats = {
-			naval_speed = -0.05
-			build_cost_ic = 0.025
+			naval_speed = -0.07
+			build_cost_ic = 0.03
 			anti_air_attack = 0.15
 		}
 
@@ -323,13 +323,13 @@ equipment_modules = {
 		multiply_stats = {
 			lg_attack = 0.1
 			hg_attack = 0.1
-			anti_air_attack = 0.1
+			anti_air_attack = 0.15
 		}
 		add_stats = {
 			
-			build_cost_ic = 230
-			surface_detection = 22
-			sub_detection = 9
+			build_cost_ic = 250
+			surface_detection = 24
+			sub_detection = 12
 		}
 		can_convert_from = {
 			module = ship_radar_4
@@ -340,6 +340,33 @@ equipment_modules = {
 			convert_cost_ic = 120
 		}
 	}
+    
+    ship_radar_6 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.2
+		}
+		add_stats = {
+			
+			build_cost_ic = 290
+			surface_detection = 30
+			sub_detection = 16
+		}
+        
+		can_convert_from = {
+			module = ship_radar_5
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_radar
+			convert_cost_ic = 120
+		}
+	}
+
 
 
 ### #  #  ##  ### #  # ### 

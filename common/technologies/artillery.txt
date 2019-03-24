@@ -941,9 +941,9 @@ technologies = {
 
 		static_anti_air_damage_factor = 0.1
 		
-		#enable_equipment_modules = { 
-		#	ship_anti_air_4
-		#}
+		enable_equipment_modules = { 
+			ship_anti_air_5
+		}
         
 		
 		research_cost = 1
