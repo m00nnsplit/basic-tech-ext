@@ -11,6 +11,7 @@ To use this repository, go to `documents/Paradox Interactive/Hearts of Iron IV/m
 ```
 name="Basic Tech Tree Extension"
 path="mod/basic-tech-ext/"
+picture="vonbraun.png"
 tags={
 	"Technologies"
 }
