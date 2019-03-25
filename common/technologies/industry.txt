@@ -1713,7 +1713,12 @@ technologies = {
 				amount = 1
 			}
 		}
-		
+        
+		path = {
+			leads_to_tech = rubber_processing6
+			research_cost_coeff = 1
+		}
+        
 		research_cost = 1.5
 		start_year = 1943
 		
@@ -1749,6 +1754,163 @@ technologies = {
 		
 		show_effect_as_desc = yes
 	}
+    
+    rubber_processing6 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 1
+			}
+		}
+        
+        path = {
+			leads_to_tech = rubber_processing7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+		
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 0.5
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}
+		
+		show_effect_as_desc = yes
+	}
+    
+    rubber_processing7 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 1
+			}
+		}
+        
+        path = {
+			leads_to_tech = rubber_processing8
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1947
+		
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 14 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 0.5
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}
+		
+		show_effect_as_desc = yes
+	}
+    
+    rubber_processing8 = {
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 1
+			}
+		}
+        
+        #path = {
+		#	leads_to_tech = rubber_processing9
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 1.5
+		start_year = 1949
+		
+		folder = {
+			name = industry_folder
+			position = { x = 1 y = 16 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 0.5
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}
+		
+		show_effect_as_desc = yes
+	}
+    
+    
+    
+    
 	#####################################
 	
 	construction1 = {

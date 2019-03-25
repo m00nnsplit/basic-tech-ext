@@ -2000,6 +2000,19 @@ spriteTypes = {
 		name = "GFX_modern_rubber_processing_medium"
 		texturefile = "gfx/interface/technologies/modern_rubber_processing.dds"
 	}
+    
+    SpriteType = {
+		name = "GFX_rubber_processing6_medium"
+		texturefile = "gfx/interface/technologies/rubber_processing6.dds"
+	}
+    SpriteType = {
+		name = "GFX_rubber_processing7_medium"
+		texturefile = "gfx/interface/technologies/rubber_processing7.dds"
+	}
+    SpriteType = {
+		name = "GFX_rubber_processing8_medium"
+		texturefile = "gfx/interface/technologies/rubber_processing8.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_construction1_medium"
