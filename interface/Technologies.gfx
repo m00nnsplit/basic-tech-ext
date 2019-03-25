@@ -607,7 +607,11 @@ spriteTypes = {
 
 
 
-
+    SpriteType = {
+		name = "GFX_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/infantry_at3.dds"
+	}	
+    
 	SpriteType = {
 		name = "GFX_infantry_at2_medium"
 		texturefile = "gfx/interface/technologies/infantry_at2.dds"
