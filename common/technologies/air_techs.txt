@@ -476,7 +476,7 @@ technologies = {
 		
 		categories = {
 			naval_air
-			air_equipment
+			jet_technology
 		}
     }
 	
@@ -528,7 +528,7 @@ technologies = {
 		
 		categories = {
 			naval_air
-			air_equipment
+			jet_technology
 		}
     }
 	

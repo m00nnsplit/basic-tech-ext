@@ -43,6 +43,15 @@ sub_units = {
 		need = { jet_fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
+    
+    cv_jet_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { cv_jet_fighter_equipment = 1 }
+		categories = { category_fighter }
+	}
 	
 	
 	cas = {
@@ -92,6 +101,14 @@ sub_units = {
 		categories = { category_fighter category_cas category_nav_bomber }
 	}
 	
+    cv_jet_multirole = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = { fighter cas naval_bomber}
+		need = { cv_jet_multirole_equipment = 1 }
+		categories = { category_fighter category_cas category_nav_bomber }
+	}
     
     
     

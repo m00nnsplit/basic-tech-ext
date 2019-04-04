@@ -76,27 +76,50 @@
  plane_strike_upgrade:"Weapons"
  plane_strike_upgrade_desc:"For multiroles, mainly ground and naval."
  Multirole_equipment_desc: "Strike Fighter is the modern name for a class of multirole aircraft that can perform as ground attack aircraft and light fighters. They also fulfill the naval bomber role."
+ cv_jet_fighter: "CV Jet Fighter"
+ cv_jet_fighter_equipment:"CV Jet Fighter"
+ cv_jet_fighter_equipment_short:"CV Jet Fighter"
+ cv_jet_fighter_equipment_desc:"Carrier Jet Fighter"
  cv_jet_fighter_equipment_1:"Carrier Jet Fighter I"
  cv_jet_fighter_equipment_1_short:"CV Jet Fighter I"
  cv_jet_fighter_equipment_1_desc:"Carrier Jet Fighter I"
  cv_jet_fighter_equipment_2:"Carrier Jet Fighter II"
  cv_jet_fighter_equipment_2_short:"CV Jet Fighter II"
  cv_jet_fighter_equipment_2_desc:"Carrier Jet Fighter II"
+ 
+ jet_interceptor: "Interceptor"
+ jet_interceptor_equipment:"Interceptor"
+ jet_interceptor_equipment_short:"Interceptor"
+ jet_interceptor_equipment_desc:"Proper interceptor jets really mostly date back to the mid-1950s, but hey."
  jet_interceptor_equipment_1:"Interceptor"
  jet_interceptor_equipment_1_short:"Interceptor"
  jet_interceptor_equipment_1_desc:"Proper interceptor jets really mostly date back to the mid-1950s, but hey."
+ 
+ jet_multirole: "Jet Multirole"
+ jet_multirole_equipment:"Jet Multirole"
+ jet_multirole_equipment_short:"Multirole"
+ jet_multirole_equipment_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack."
  jet_multirole_equipment_1:"Jet Multirole I"
  jet_multirole_equipment_1_short:"Multirole I"
  jet_multirole_equipment_1_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack."
  jet_multirole_equipment_2:"Jet Multirole II"
  jet_multirole_equipment_2_short:"Multirole II"
  jet_multirole_equipment_2_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack."
+
+ cv_jet_multirole: "CV Jet Multirole"
+ cv_jet_multirole_equipment:"CV Jet Multirole"
+ cv_jet_multirole_equipment_short:"CV Multirole"
+ cv_jet_multirole_equipment_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack, such as those arising from the NBMR-1 (strike fighter, in modern parlance)."
  cv_jet_multirole_equipment_1:"Carrier Jet Multirole I"
  cv_jet_multirole_equipment_1_short:"CV Multirole I"
  cv_jet_multirole_equipment_1_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack, such as those arising from the NBMR-1 (strike fighter, in modern parlance)."
  cv_jet_multirole_equipment_2:"Carrier Jet Multirole II"
  cv_jet_multirole_equipment_2_short:"CV Multirole II"
  cv_jet_multirole_equipment_2_desc:"This represents variants of jet fighters or purpose-built jet aircraft for ground and naval attack."
+ 
+ 
+ 
+ 
  
  
  GER_infantry_equipment_4: "Sturmgewehr 45"
