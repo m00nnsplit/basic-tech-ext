@@ -3770,6 +3770,15 @@ spriteTypes = {
 		name = "GFX_transport_plane_equipment_medium"
 		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
 	}	
+    
+    SpriteType = {
+		name = "GFX_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment_2.dds"
+	}	
+    SpriteType = {
+		name = "GFX_transport_plane2_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment_2.dds"
+	}	
 	
 	SpriteType = {
 		name = "GFX_early_bomber_medium"

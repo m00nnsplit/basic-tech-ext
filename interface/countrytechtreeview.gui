@@ -2187,6 +2187,14 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+            
+            gridboxtype = {
+				name = "transport_plane2_tree"
+				position = { x = 640 y = 1015 }
+				size = { width = 400 height = 400 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {

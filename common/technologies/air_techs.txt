@@ -1800,4 +1800,35 @@ technologies = {
 		}
 		################
 	}
+    
+    
+    
+    transport_plane2 = {
+
+		enable_equipments = {
+			transport_plane_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+
+	}
 }

@@ -72,6 +72,9 @@
  anti_air_equipment_4_short: "Современая ПВО IV"
  anti_air_equipment_4_desc: "Современая ПВО"
  
+ transport_plane_equipment_2: "Реактивный транспортный самолёт"
+ transport_plane_equipment_2_short: "Реак. транспортный"
+ transport_plane_equipment_2_desc: "Транспортный самолёт II"
  AIR_TITLE_MULTIROLE: ""
  plane_strike_upgrade:"Оружие"
  plane_strike_upgrade_desc:"Для мульти ролей, в основном наземных и морских операций"

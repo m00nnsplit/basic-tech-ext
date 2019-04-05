@@ -1,6 +1,6 @@
 equipments = {  
-    
-    modern_tank_equipment_2 = {
+	
+	modern_tank_equipment_2 = {
 		year = 1947
 
 		archetype = modern_tank_equipment
@@ -8,8 +8,8 @@ equipments = {
 		priority = 170
 		visual_level = 0
 		is_convertable = yes
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 11
 		reliability = 0.8
 
@@ -37,15 +37,15 @@ equipments = {
 		}
 		
 		fuel_consumption = 5
-        
+		
 	}
-    
-    modern_tank_artillery_equipment_2 = {
+	
+	modern_tank_artillery_equipment_2 = {
 		year = 1947
 
 		archetype = modern_tank_artillery_equipment
 		parent = modern_tank_artillery_equipment_1
-        family = modern_tank_equipment_2
+		family = modern_tank_equipment_2
 		priority = 180
 		visual_level = 0
 		can_convert_from = { 
@@ -78,23 +78,23 @@ equipments = {
 		}
 		fuel_consumption = 2.5
 	}
-    
-    
-    
-    
-    modern_tank_destroyer_equipment_2 = {
+	
+	
+	
+	
+	modern_tank_destroyer_equipment_2 = {
 		year = 1947
 
 		archetype = modern_tank_destroyer_equipment
 		parent = modern_tank_destroyer_equipment_1
-        family = modern_tank_equipment_2
+		family = modern_tank_equipment_2
 		priority = 200
 		visual_level = 0
 		can_convert_from = { 
 			modern_tank_equipment_2
 		}
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 11
 		reliability = 0.8
 
@@ -117,24 +117,24 @@ equipments = {
 			#oil = 1
 			steel = 3
 			chromium = 4
-            tungsten = 2
+			tungsten = 2
 		}
 		fuel_consumption = 2.5
 	}
-    
-    modern_tank_aa_equipment_2 = {
+	
+	modern_tank_aa_equipment_2 = {
 		year = 1947
 
 		archetype = modern_tank_aa_equipment
 		parent = modern_tank_aa_equipment_1
-        family = modern_tank_equipment_2
+		family = modern_tank_equipment_2
 		priority = 190
 		visual_level = 0
 		can_convert_from = { 
 			modern_tank_equipment_2 
 		}
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 11
 		reliability = 0.8
 
@@ -159,13 +159,13 @@ equipments = {
 		}
 		fuel_consumption = 1.25
 	}
-    
-    
-    
-    
-    
-    
-    modern_tank_equipment_3 = {
+	
+	
+	
+	
+	
+	
+	modern_tank_equipment_3 = {
 		year = 1949
 
 		archetype = modern_tank_equipment
@@ -173,8 +173,8 @@ equipments = {
 		priority = 170
 		visual_level = 0
 		is_convertable = yes
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 12
 		reliability = 0.8
 
@@ -202,15 +202,15 @@ equipments = {
 		}
 		
 		fuel_consumption = 5
-        
+		
 	}
-    
-    modern_tank_artillery_equipment_3 = {
+	
+	modern_tank_artillery_equipment_3 = {
 		year = 1949
 
 		archetype = modern_tank_artillery_equipment
 		parent = modern_tank_artillery_equipment_2
-        family = modern_tank_equipment_3
+		family = modern_tank_equipment_3
 		priority = 180
 		visual_level = 0
 		can_convert_from = { 
@@ -243,23 +243,23 @@ equipments = {
 		}
 		fuel_consumption = 2.5
 	}
-    
-    
-    
-    
-    modern_tank_destroyer_equipment_3 = {
+	
+	
+	
+	
+	modern_tank_destroyer_equipment_3 = {
 		year = 1949
 
 		archetype = modern_tank_destroyer_equipment
 		parent = modern_tank_destroyer_equipment_2
-        family = modern_tank_equipment_3
+		family = modern_tank_equipment_3
 		priority = 200
 		visual_level = 0
 		can_convert_from = { 
 			modern_tank_equipment_3
 		}
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 12
 		reliability = 0.8
 
@@ -282,24 +282,24 @@ equipments = {
 			#oil = 1
 			steel = 4
 			chromium = 4
-            tungsten = 3
+			tungsten = 3
 		}
 		fuel_consumption = 2.5
 	}
-    
-    modern_tank_aa_equipment_3 = {
+	
+	modern_tank_aa_equipment_3 = {
 		year = 1949
 
 		archetype = modern_tank_aa_equipment
 		parent = modern_tank_aa_equipment_2
-        family = modern_tank_equipment_3
+		family = modern_tank_equipment_3
 		priority = 190
 		visual_level = 0
 		can_convert_from = { 
 			modern_tank_equipment_3
 		}
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 12
 		reliability = 0.8
 
@@ -324,30 +324,30 @@ equipments = {
 		}
 		fuel_consumption = 1.25
 	}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-    
-    
-    
-    
-    
-    
+	
+	
+	
+	
+	
+	
 
 	super_heavy_tank_equipment_2 = {
 		year = 1947
@@ -358,7 +358,7 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-        #Misc Abilities
+		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.8
 
@@ -394,14 +394,14 @@ equipments = {
 
 		archetype = super_heavy_tank_artillery_equipment
 		parent = super_heavy_tank_artillery_equipment_1
-        family = super_heavy_tank_equipment_2
+		family = super_heavy_tank_equipment_2
 		priority = 140
 		visual_level = 0
 		can_convert_from = { 
 			super_heavy_tank_equipment_2
 		}
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.8
 
@@ -437,13 +437,13 @@ equipments = {
 
 		archetype = super_heavy_tank_destroyer_equipment
 		parent = super_heavy_tank_destroyer_equipment_1
-        family = super_heavy_tank_equipment_2
+		family = super_heavy_tank_equipment_2
 		priority = 160
 		visual_level = 0
 		can_convert_from = { 
 			super_heavy_tank_equipment_2
 		}
-        #Misc Abilities
+		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.8
 
@@ -485,7 +485,7 @@ equipments = {
 		can_convert_from = { 
 			super_heavy_tank_equipment_2 
 		}
-        #Misc Abilities
+		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.8
 
