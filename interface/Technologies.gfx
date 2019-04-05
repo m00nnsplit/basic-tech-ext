@@ -3725,7 +3725,7 @@ spriteTypes = {
 	}
     SpriteType = {
 		name = "GFX_main_battle_tank_3_medium"
-		texturefile = "gfx/interface/technologies/main_battle_tank_2.dds"
+		texturefile = "gfx/interface/technologies/main_battle_tank_3.dds"
 	}
 
 
