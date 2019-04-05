@@ -18,8 +18,8 @@ equipments = {
 			steel = 4
 		}
 	}
-    
-    rocket_artillery_equipment_3 = {
+	
+	rocket_artillery_equipment_3 = {
 		year = 1946
 
 		archetype = rocket_artillery_equipment
@@ -37,9 +37,9 @@ equipments = {
 			steel = 2
 		}
 	}
-    
-    
-    anti_tank_equipment_4 = {
+	
+	
+	anti_tank_equipment_4 = {
 		year = 1946
 
 		archetype = anti_tank_equipment
@@ -56,9 +56,9 @@ equipments = {
 			steel = 3
 		}
 	}
-    
-    
-    anti_air_equipment_4 = {
+	
+	
+	anti_air_equipment_4 = {
 		year = 1946
 
 		archetype = anti_air_equipment

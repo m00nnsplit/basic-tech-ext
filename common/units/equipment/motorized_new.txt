@@ -1,13 +1,13 @@
 equipments = {
-    motorized_equipment_2 = {
-        year = 1945
-        archetype = motorized_equipment
-        parent = motorized_equipment_1
-        
-        priority = 30
-        
-    	maximum_speed = 16
+	motorized_equipment_2 = {
+		year = 1945
+		archetype = motorized_equipment
+		parent = motorized_equipment_1
+		
+		priority = 30
+		
+		maximum_speed = 16
 
 		build_cost_ic = 3.5
-    }
+	}
 }

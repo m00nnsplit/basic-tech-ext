@@ -35,7 +35,7 @@ equipments = {
 		resources = {
 			#oil = 1			
 			aluminium = 4
-            tungsten = 2
+			tungsten = 2
 			rubber = 1
 		}
 		

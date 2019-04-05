@@ -1,8 +1,8 @@
 equipments = {
 
-    ### DESTROYER
-    
-    
+	### DESTROYER
+	
+	
 	ship_hull_light_5 = {
 		year = 1948
 
@@ -116,11 +116,11 @@ equipments = {
 		}		
 		manpower = 500
 	}
-    
-    
-    ### CRUISERS
-    
-    ship_hull_cruiser_5 = {
+	
+	
+	### CRUISERS
+	
+	ship_hull_cruiser_5 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_cruiser
@@ -133,7 +133,7 @@ equipments = {
 		max_strength = 150
 		resources = {
 			steel = 3
-            chromium = 1
+			chromium = 1
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -184,9 +184,9 @@ equipments = {
 			rear_2_custom_slot = empty
 		}
 	}
-    
-    
-    light_cruiser_5 = {
+	
+	
+	light_cruiser_5 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_cruiser
@@ -238,9 +238,9 @@ equipments = {
 		}
 		manpower = 1140
 	}
-    
-    
-    heavy_cruiser_5 = {
+	
+	
+	heavy_cruiser_5 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_cruiser
@@ -290,12 +290,12 @@ equipments = {
 			chromium = 2
 		}		
 		manpower = 2200
-    }
-    
-    
-    ### BATTLESHIPS
-    
-    ship_hull_heavy_5 = {
+	}
+	
+	
+	### BATTLESHIPS
+	
+	ship_hull_heavy_5 = {
 		year = 1948
 
 		archetype = ship_hull_heavy
@@ -358,9 +358,9 @@ equipments = {
 
 		manpower = 6000
 	}
-    
-    
-    battleship_5 = {
+	
+	
+	battleship_5 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_heavy
@@ -414,12 +414,12 @@ equipments = {
 		manpower = 7400
 		
 	}
-    
-    
-    
-    ### CARRIERS
-    
-    ship_hull_carrier_4 = {
+	
+	
+	
+	### CARRIERS
+	
+	ship_hull_carrier_4 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_carrier
@@ -476,9 +476,9 @@ equipments = {
 		}
 		manpower = 5500
 	}
-    
-    
-    carrier_5 = {
+	
+	
+	carrier_5 = {
 		year = 1948
 		visual_level = 1
 		archetype = ship_hull_carrier
@@ -524,11 +524,11 @@ equipments = {
 		}		
 		manpower = 6000
 	}
-    
-    
-    ### SUBMARINES
-    
-    ship_hull_submarine_5 = {
+	
+	
+	### SUBMARINES
+	
+	ship_hull_submarine_5 = {
 		year = 1948
 
 		archetype = ship_hull_submarine
@@ -579,8 +579,8 @@ equipments = {
 			submarine
 		}	
 	}
-    
-    submarine_5 = {
+	
+	submarine_5 = {
 		year = 1948
 
 		archetype = ship_hull_submarine

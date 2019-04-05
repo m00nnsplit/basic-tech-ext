@@ -26,8 +26,8 @@ equipments = {
 			#oil = 2
 		}
 	}
-    
-    amphibious_mechanized_equipment_3 = {
+	
+	amphibious_mechanized_equipment_3 = {
 		year = 1945
 
 		archetype = amphibious_mechanized_equipment

@@ -48,9 +48,9 @@ equipments = {
 			steel = 3
 			tungsten = 2
 		}
-        fuel_consumption = 3.2
+		fuel_consumption = 3.2
 	}
-    
+	
 	recon_tank_equipment_1 = {
 		year = 1945
 
@@ -59,16 +59,16 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 	}
-    
-    recon_tank_equipment_2 = {
+	
+	recon_tank_equipment_2 = {
 		year = 1948
 
 		archetype = recon_tank_equipment
 		priority = 50
 		visual_level = 1
 		is_convertable = yes
-        
-        #Misc Abilities
+		
+		#Misc Abilities
 		maximum_speed = 14
 
 		#Defensive Abilities
@@ -87,10 +87,10 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 2
-            tungsten = 1
+			tungsten = 1
 		}
-        
-        fuel_consumption = 3
+		
+		fuel_consumption = 3
 	}
-    
+	
 }
