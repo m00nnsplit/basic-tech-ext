@@ -617,7 +617,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_3
 		
 		multiply_stats = {
-			sub_visibility = -0.75
+			sub_visibility = -0.30
 		}
 		
 		add_stats = {
