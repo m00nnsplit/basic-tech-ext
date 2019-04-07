@@ -1,0 +1,5 @@
+﻿l_french:
+ recon_armor:0 "Bataillon de Reconnaissance Blindée"
+ recon_armor_desc:0 "Un bataillon de tanks de reconnaissance."
+ recon_armor_air:0 "Bataillon Aéroporté de Reconnaissance Blindée"
+ recon_armor_air_desc:0 "Un bataillon de tanks de reconnaissance, formé et équipé pour le parachutage. Il faut plus longtemps pour l'entrainer, et sa reconnaissance est plus faible."
