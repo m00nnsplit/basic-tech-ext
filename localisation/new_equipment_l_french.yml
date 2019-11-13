@@ -178,7 +178,7 @@
  USA_jet_interceptor_equipment_1:"Lockheed F-104 Starfighter"
  USA_jet_interceptor_equipment_1_short:"F-104 Starfighter"
  USA_jet_interceptor_equipment_1_desc:"The US interceptor could have been the F-89 (which actually did fly in 1949), or the F-102, or the F-106, but the F-104 is such a beautiful plane (and with such a tragic history) that I couldn't help but select it."
- USA_jet_attack_equipment_2:"Douglas A-4 Skyhawk"
+ USA_jet_multirole_equipment_2:"Douglas A-4 Skyhawk"
  USA_jet_multirole_equipment_2_short:"A-4 Skyhawk"
  USA_jet_multirole_equipment_2_desc:"An attack aircraft which first flew in 1954."
  
@@ -237,7 +237,7 @@
  FRA_infantry_equipment_4:0 "CÉAM Modèle 1950"
  FRA_infantry_equipment_4_short:0 "AME 49"
  FRA_infantry_equipment_4_desc:0 "A prototype in .30 Carbine built by Ludwig Vergrimler, who had co-designed the StG-45(M), at the CÉAM. Lack of funds (and urgency due to the war in Indochina) historically caused its end. A more historically-accurate (but less fun) weapon for this time slot would be the MAT-49, a SMG derived from the US M3 which was used until the adoption of the FAMAS."
-  FRA_infantry_equipment_4_desc:0 "Un prototype chambré en .30 Carbine construit par Ludwig Vergrimler, co-concepteur du StG-45(M). Le projet fut abandonné par manque de fonds et a cause de la guerre d'Indochine. Une arme plus fidele a la realité (mais tellement plus amusante) serait le MAT-49, une mitraillette dérivée du M3 utilisée jusqu'a l'adoption du FAMAS."
+ FRA_infantry_equipment_4_desc:0 "Un prototype chambré en .30 Carbine construit par Ludwig Vergrimler, co-concepteur du StG-45(M). Le projet fut abandonné par manque de fonds et a cause de la guerre d'Indochine. Une arme plus fidele a la realité (mais tellement plus amusante) serait le MAT-49, une mitraillette dérivée du M3 utilisée jusqu'a l'adoption du FAMAS."
  FRA_mechanized_equipment_4:0 "AMX-VTT"
  FRA_mechanized_equipment_4_short:0 "AMX-VTT"
  FRA_mechanized_equipment_4_desc:0 "Plus ou moins la meme chose que l'AMX-VCI. Est-ce ma faute si Paradox met des vehicules de 1957 en 1944 ?"
