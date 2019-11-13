@@ -1,4 +1,6 @@
 ﻿l_english:
+ MTG_ALLOW_NOTICE: "§MThis branch is not researchable without the §RMan the Guns§M DLC."
+
  infantry_at3:"Infantry Anti-Tank III"
  SOV_infantry_at3:"RPG-1"
  infantry_at3_desc:"The largest improvements in anti-tank weapons are new propeller designs for the charge, rather than shaped charges themselves."

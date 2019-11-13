@@ -1,4 +1,6 @@
 ﻿l_french:
+ MTG_ALLOW_NOTICE: "§MCette branche n'est pas disponible sans le DLC §RMan the Guns§M."
+ 
  infantry_at3:"Armes antichar III"
  SOV_infantry_at3:"RPG-1"
  infantry_at3_desc:"Les plus grandes améliorations aux armes antichar sont de nouveaux moyen de propulsions pour la charge utile, plutot que la charge elle-meme."

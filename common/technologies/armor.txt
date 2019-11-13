@@ -513,6 +513,10 @@ technologies = {
 			armor
 			tp_tech
 		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = MTG_ALLOW_NOTICE
+		}
 	}
 
 	amphibious_tank_2 = { #tauchPanzer III
@@ -566,6 +570,10 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = MTG_ALLOW_NOTICE
 		}
 	}
     
