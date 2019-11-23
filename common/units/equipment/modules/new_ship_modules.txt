@@ -329,7 +329,7 @@ equipment_modules = {
 			
 			build_cost_ic = 250
 			surface_detection = 24
-			sub_detection = 12
+			sub_detection = 16
 		}
 		can_convert_from = {
 			module = ship_radar_4
@@ -354,7 +354,7 @@ equipment_modules = {
 			
 			build_cost_ic = 290
 			surface_detection = 30
-			sub_detection = 16
+			sub_detection = 18
 		}
         
 		can_convert_from = {
@@ -363,7 +363,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_radar
-			convert_cost_ic = 120
+			convert_cost_ic = 150
 		}
 	}
 
@@ -565,7 +565,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 35
+			torpedo_attack = 32
 			build_cost_ic = 155
 		}
 		can_convert_from = {
@@ -656,3 +656,4 @@ equipment_modules = {
 #		dismantle_cost_ic = 700
 #	}
 
+}

@@ -633,7 +633,7 @@ equipments = {
 		
 
 		
-		build_cost_ic = 300
+		build_cost_ic = 500
 		resources = {
 			#oil = 2
 			steel = 3
