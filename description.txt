@@ -1,0 +1,44 @@
+A tech tree extension that preserves balance and can be plugged into an existing game.
+
+Ever gotten annoyed at how everyone can decrypt everyone's communications in the end game ? How technological development slows down from 1942 on, and comes to a dead stop at 1945 ? How there's no space left to build new factories ? Well, me too.
+
+Hence this mod, which attempts to extend the tech tree towards 1950. The idea is that the game should end with some technologies still in the process of being deployed, even for countries at the forefront of technological development.
+
+This not does not expand the tree ; it increases its length, but not its breadth. It also attempts to preserve balance, does not touch the existing tree at all, and attempts to copy its design choices (wrong as they may be). Hence, it can be plugged into a game in progress with the vanilla tree without any problems.
+
+[b][i]Man the Guns[/i][/b] is recommended.
+
+[h1]Additions[/h1] 
+
+In most cases, this mod is a [b]simple linear extension[/b] of what was there (when it makes sense : infantry equipment, trucks, artillery, electronics, industry). Thought was given as to balance and historicity, of course, which is why some paths are not extended further than in vanilla (such as the synthetic oil path, or the construction speed path).
+
+[b]A new type of tank[/b] has been added, which merges Amphibious and Light tanks : Reconnaissance tanks. They model things like the PT-76 and Sheridan, which are light tanks but not with the same role as early war light tanks. These Recon tanks are fast, amphibious, and can even be airdropped. Researching them unlocks the corresponding new battalions.
+
+[b]Many new jets[/b] were added to complete the jet line. Existing fighter jets are given carrier variants (which the US did develop), and a new type of aircraft is added, strike fighters (which are multirole, performing both CAS and naval, with possible fighter duties as well). The heavy fighter line receives a jet descendant, the jet interceptor.
+
+[b]Naval extension[/b] is mostly linear, and includes battleships (which is ahistorical, but follows the logic of vanilla where battleships and aircraft carriers are roughly equivalent). The balance is kept by the addition of naval jets.
+
+Doctrines are not extended.
+
+[h1]Translations[/h1]
+
+[b]Russian[/b] Translation made by the creator of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1694812806]this mod[/url] (which includes a modified version of this one).
+
+Partial [b]French[/b] translation
+
+[h1] FAQ[/h1] 
+
+[b]Why not use Road to 56 or Expanded Technology + Industry + Equipment ?[/b] Because these mods increase the breadth of the tree, so they cannot be plugged into a game in progress. In addition, I'm no fan of their design choices, and I believe they don't always respect the feel of the base tech tree. I wanted something far simpler.
+
+[b]Images are ugly[/b] Yeah, I'm no artist. If you do have the skills and are willing to help, that'd be absolutely great.
+
+[b]The balance is bad[/b] That's a problem, contact me as soon as possible.
+
+[b]The history is questionable[/b] Yes, but so is the history in the original tech tree. Still, if you do have a better solution in mind, do contact me.
+
+[b]Why can't I research the amphibious tanks ?[/b] The amphibious tanks are added in the [i]Man the Guns[/i] expansion, but they are (normally) hidden if you don't have the DLC enabled. I won't get into detail, but basically, I had to expose them to make the Recon tanks visible to non-MtG owners. However, researching them is still impossible without the appropriate DLC. I apologise for the unclear UI, I would have done it another way had I could.
+
+[b]Is there a public repository ?[/b] Yes : https://github.com/m00nnsplit/basic-tech-ext
+
+
+The picture is Wernher von Braun preparing to whack a kid for asking whether there would be slave labour on the Moon. Well, OK, maybe not. It's him at the Little League team of the Huntsville, Alabama Boys Club.

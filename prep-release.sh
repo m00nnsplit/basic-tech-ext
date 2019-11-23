@@ -1,6 +1,16 @@
 # meant to clean up everything before releasing
 # WARNING : It removes the .git folder so don't trust Git to reverse changes !
+
+
+echo 'name="Basic Tech Tree Extension"' > newdescriptor.mod
+tail descriptor.mod  -n +2 >> newdescriptor.mod # strip name
+mv newdescriptor.mod descriptor.mod
+
+echo 'remote_file_id="1693828792"' >> descriptor.mod
+#echo "version=\"$(git rev-list --count HEAD)\"" >> descriptor.mod
+
 find . -name "*.pdn" -print0 | xargs -0 rm -rf
 rm -rf .git
 rm -f readme.md
+rm -f description.txt
 rm -f prep-release.sh
