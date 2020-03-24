@@ -1,0 +1,38 @@
+#!/usr/bin/env groovy
+
+/**
+ * overwrite each file in the mod with the official game's version
+ * useful for diffing updates
+ */
+
+def installDir=new File('C:/Program Files (x86)/Steam/steamapps/common/Hearts of Iron IV')
+if (args.size() > 0)
+	installDir = args[0]
+else
+	println "Install dir: ${installDir}\n"
+
+
+
+@groovy.transform.SourceURI def thisFile
+
+def modDir = new File(thisFile.resolve("."))
+
+modDir.eachDirMatch(~/[^.].*/ ){dir->
+	dir.eachFileRecurse{target->
+		if (!target.isFile())
+			return
+		
+		def path = modDir.relativePath(target)
+		def source = new File(installDir, path)
+		
+		if (!source.exists())
+			return
+		
+		if (target.toString().endsWith(".dds"))
+		{
+			println path
+			return
+		}
+		target << source.bytes
+	}
+}
