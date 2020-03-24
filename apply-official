@@ -33,6 +33,7 @@ modDir.eachDirMatch(~/[^.].*/ ){dir->
 			println path
 			return
 		}
+		target.delete()
 		target << source.bytes
 	}
 }
