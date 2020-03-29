@@ -8,6 +8,15 @@ sub_units = {
 		categories = { category_fighter }
 	}
 
+	scout_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { scout_plane }
+		need = { scout_plane_equipment = 1 }
+		categories = { category_scout_plane }
+	}
+
 	cv_fighter = {
 		sprite = light_plane
 		priority = 1
@@ -25,27 +34,27 @@ sub_units = {
 		need = { heavy_fighter_equipment = 1 }
 		categories = { category_heavy_fighter }
 	}
-    
-    jet_interceptor = {
-		sprite = medium_plane
+	
+	jet_interceptor = {
+		sprite = jet_plane
 		priority = 2
 		active = yes
 		type = { fighter }
 		need = { jet_interceptor_equipment = 1 }
 		categories = { category_heavy_fighter  }
 	}
-
+	
 	jet_fighter = {
-		sprite = light_plane
+		sprite = jet_plane
 		priority = 1
 		active = yes
 		type = { fighter }
 		need = { jet_fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
-    
-    cv_jet_fighter = {
-		sprite = light_plane
+	
+	cv_jet_fighter = {
+		sprite = jet_plane
 		priority = 1
 		active = yes
 		type = { fighter }
@@ -71,8 +80,8 @@ sub_units = {
 		need = { cv_CAS_equipment = 1 }
 		categories = { category_cas }
 	}
-    
-
+	
+	
 	
 	nav_bomber = {
 		sprite = light_plane
@@ -92,8 +101,8 @@ sub_units = {
 		categories = { category_nav_bomber }
 	}
 	
-    jet_multirole = {
-		sprite = light_plane
+	jet_multirole = {
+		sprite = jet_plane
 		priority = 2
 		active = yes
 		type = { fighter cas naval_bomber}
@@ -101,17 +110,17 @@ sub_units = {
 		categories = { category_fighter category_cas category_nav_bomber }
 	}
 	
-    cv_jet_multirole = {
-		sprite = light_plane
+	cv_jet_multirole = {
+		sprite = jet_plane
 		priority = 2
 		active = yes
 		type = { fighter cas naval_bomber}
 		need = { cv_jet_multirole_equipment = 1 }
 		categories = { category_fighter category_cas category_nav_bomber }
 	}
-    
-    
-    
+	
+	
+	
 	tac_bomber = {
 		sprite = medium_plane
 		priority = 4

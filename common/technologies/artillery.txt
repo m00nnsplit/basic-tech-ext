@@ -308,12 +308,12 @@ technologies = {
 	}
 	
 	artillery5 = {
-
-        path = {
+		
+		path = {
 			leads_to_tech = artillery7
 			research_cost_coeff = 1
 		}
-        
+		
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -356,15 +356,15 @@ technologies = {
 			}
 		}
 	}
-    
-    artillery7 = {
 
-        enable_equipments = {
+	artillery7 = {
+		
+		enable_equipments = {
 			artillery_equipment_4
 		}
 		
 		research_cost = 1
-
+		
 		start_year = 1945
 		
 		folder = {
@@ -395,8 +395,8 @@ technologies = {
 			}
 		}
 	}
-    
-
+	
+	
 	mountain_gun = {
 
 		research_cost = 1
@@ -544,11 +544,11 @@ technologies = {
 	
 	rocket_artillery4 = {
 	
-        path = {
+		path = {
 			leads_to_tech = rocket_artillery7
 			research_cost_coeff = 1
 		}
-        
+		
 		enable_equipments = {
 			rocket_artillery_equipment_2
 		}
@@ -585,19 +585,19 @@ technologies = {
 			rocketry
 		}
 	}
-    
-    rocket_artillery7 = {
 	
-        
+	rocket_artillery7 = {
+	
+		
 		enable_equipments = {
 			rocket_artillery_equipment_3
 		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
-
+		
 		research_cost = 1
-
+		
 		start_year = 1945
 		
 		folder = {
@@ -618,8 +618,8 @@ technologies = {
 			rocketry
 		}
 	}
-    
-    
+	
+	
 	
 	interwar_antiair = {
 
@@ -699,7 +699,7 @@ technologies = {
 			air_attack = 0.1
 		}
 
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair2
@@ -797,7 +797,7 @@ technologies = {
 			air_attack = 0.1
 		}
 		
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 
 		path = {
 			leads_to_tech = antiair4
@@ -847,7 +847,7 @@ technologies = {
 			air_attack = 0.1
 		}
 
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair5
@@ -896,8 +896,8 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_anti_air_4
 		}
-        
-        path = {
+		
+		path = {
 			leads_to_tech = antiair8
 			research_cost_coeff = 1
 		}
@@ -933,21 +933,21 @@ technologies = {
 		}
 	}
 	
-    antiair8 = {
-
+	antiair8 = {
+		
 		enable_equipments = {
 			anti_air_equipment_4
 		}
-
+		
 		static_anti_air_damage_factor = 0.1
 		
 		enable_equipment_modules = { 
 			ship_anti_air_5
 		}
-        
+		
 		
 		research_cost = 1
-
+		
 		start_year = 1946
 		
 		folder = {
@@ -976,14 +976,14 @@ technologies = {
 			artillery
 		}
 	}
-    
-    
-    
-    
-    
-    
-    
-    
+	
+	
+	
+	
+	
+	
+	
+	
 	interwar_antitank = {
 
 		enable_equipments = {
@@ -1358,12 +1358,12 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_3
 		}	
-        
-        path = {
+		
+		path = {
 			leads_to_tech = antitank8
 			research_cost_coeff = 1
 		}
-			
+		
 		#anti_tank = {
 		#	hard_attack = 0.1
 		#	ap_attack = 0.05
@@ -1426,10 +1426,10 @@ technologies = {
 			cat_anti_tank
 		}
 	}
-    
-    
-    
-    antitank8 = {
+	
+	
+	
+	antitank8 = {
 			
 		enable_equipments = {
 			anti_tank_equipment_4
@@ -1451,7 +1451,7 @@ technologies = {
 				factor = 2
 				date > "1946.1.1"
 			}
-            
+			
 			modifier = {
 				factor = 10
 				any_enemy_country = {

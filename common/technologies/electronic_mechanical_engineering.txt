@@ -2,7 +2,7 @@ technologies = {
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed
-		research_speed_factor = 0.02
+		research_speed_factor = 0.03
 		
 		path = {
 			leads_to_tech = radio 
@@ -311,7 +311,7 @@ technologies = {
 			building = radar_station
 			level = 6
 		}
-        
+
         path = {
 			leads_to_tech = better_radar 
 			research_cost_coeff = 1
@@ -347,7 +347,7 @@ technologies = {
 			radar_tech
 		}
 	}
-    
+	
     better_radar = {
 
 		# radar boost in air/sea combat depends on radar level
@@ -427,7 +427,7 @@ technologies = {
 	mechanical_computing = {
 
 		# small boost to research speed
-		research_speed_factor = 0.03
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = computing_machine 
@@ -459,7 +459,7 @@ technologies = {
 	computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.03
+		research_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = improved_computing_machine 
@@ -510,7 +510,7 @@ technologies = {
 	improved_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.05
+		research_speed_factor = 0.08
 		
 		path = {
 			leads_to_tech = advanced_computing_machine 
@@ -568,7 +568,7 @@ technologies = {
 	advanced_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.05
+		research_speed_factor = 0.08
 		
 		path = {
 			leads_to_tech = advanced_encryption 
@@ -578,7 +578,7 @@ technologies = {
 			leads_to_tech = advanced_decryption 
 			research_cost_coeff = 1
 		}
-        
+		
         path = {
             leads_to_tech = programmable_computer
             research_cost_coeff = 1
@@ -614,6 +614,200 @@ technologies = {
 		}
 	}
 	
+    
+    programmable_computer = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = encryption4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption4
+			research_cost_coeff = 1
+		}
+        
+        path = {
+            leads_to_tech = programmable_computer2
+            research_cost_coeff = 1
+        }
+		
+		research_cost = 2.5
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1944.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1945.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+	
+    programmable_computer2 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = encryption5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption5 
+			research_cost_coeff = 1
+		}
+        
+        path = {
+            leads_to_tech = programmable_computer3
+            research_cost_coeff = 1
+        }
+		
+		research_cost = 2.5
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1946.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1947.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+	
+    programmable_computer3 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = encryption6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption6 
+			research_cost_coeff = 1
+		}
+        
+        path = {
+            leads_to_tech = programmable_computer4
+            research_cost_coeff = 1
+        }
+		
+		research_cost = 2.5
+		start_year = 1948
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1948.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1949.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+	
+    programmable_computer4 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = encryption7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption7 
+			research_cost_coeff = 1
+		}
+        
+		
+		research_cost = 2.5
+		start_year = 1950
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1950.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1951.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+	
+	
 	basic_encryption = {
 
 		# encryption 1
@@ -621,7 +815,9 @@ technologies = {
 		
 		research_cost = 1
 		start_year = 1938
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 6 }
@@ -659,7 +855,9 @@ technologies = {
 
 		# encryption 2
 		encryption = 1
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		research_cost = 1
 		start_year = 1940
 		
@@ -700,7 +898,9 @@ technologies = {
 
 		# encryption 3
 		encryption = 1
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		research_cost = 1
 		start_year = 1942
 		
@@ -741,7 +941,9 @@ technologies = {
 
 		# decryption 1
 		decryption = 1
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		research_cost = 1.5
 		start_year = 1938
 		
@@ -778,7 +980,9 @@ technologies = {
 
 		# decryption 2
 		decryption = 1
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		research_cost = 1.5
 		start_year = 1940
 		
@@ -815,7 +1019,9 @@ technologies = {
 
 		# decryption 3
 		decryption = 1
-		
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
 		research_cost = 1.5
 		start_year = 1942
 		
@@ -848,6 +1054,269 @@ technologies = {
 		}
 	}
 
+	
+    encryption4 = {
+
+		encryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1.75
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 1 # not a major
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+    decryption4 = {
+
+		decryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5 # not a major
+			}
+            
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+    
+    
+    
+    
+    
+    encryption5 = {
+
+		encryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1.75
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 1 # not a major
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+    decryption5 = {
+
+		decryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1.5
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5 # not a major
+			}
+            
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}    
+    
+    
+    
+    
+    
+    encryption6 = {
+
+		encryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1
+		start_year = 1948
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1.75
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 1 # not a major
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+    decryption6 = {
+
+		decryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1.5
+		start_year = 1948
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5 # not a major
+			}
+            
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	} 
+    
+    
+    
+    
+    
+    encryption7 = {
+
+		encryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 1.75
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 1 # not a major
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+		}
+	}
+    decryption7 = {
+
+		decryption = 1
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+		}
+		
+		research_cost = 1.5
+		start_year = 1950
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5 # not a major
+			}
+            
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+	
+	
+	
 	basic_fire_control_system = {
 
 		allow_branch = {
@@ -1172,7 +1641,7 @@ technologies = {
 	
 	atomic_research = {
 
-		research_speed_factor = 0.02
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = nuclear_reactor 
@@ -1273,436 +1742,22 @@ technologies = {
 			nuclear
 		}
 	}
-    
-    
-    
-    
-    ################
-    # ADDED BY MOD #
-    ################
-    
-    
-    programmable_computer = {
 
-		# small boost to research speed
-		research_speed_factor = 0.02
-		
-		path = {
-			leads_to_tech = encryption4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = decryption4
-			research_cost_coeff = 1
-		}
-        
-        path = {
-            leads_to_tech = programmable_computer2
-            research_cost_coeff = 1
-        }
-		
-		research_cost = 2.5
+	lar_decryption_bonus_tech = {
+				
+		research_cost = 1.5 #Carrier Variant
 		start_year = 1944
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 18 }
+
+		# only from focus!!! #####
+		allow = {
+			always = no
 		}
+		decryption_power = 10
+
 		
 		ai_will_do = {
-			factor = 3
-			
-			modifier = {
-				factor = 3
-				date > "1944.1.6"
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1945.1.1"
-			}
+			factor = 0
 		}
-		
-		categories = {
-			electronics
-			encryption_tech
-			decryption_tech
-			computing_tech
-		}
+		################
 	}
-    encryption4 = {
-
-		encryption = 1
-		
-		research_cost = 1
-		start_year = 1944
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1 # not a major
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-    decryption4 = {
-
-		decryption = 1
-		
-		research_cost = 1.5
-		start_year = 1944
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5 # not a major
-			}
-            
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	}
-    
-    
-    
-    
-    
-    programmable_computer2 = {
-
-		# small boost to research speed
-		research_speed_factor = 0.02
-		
-		path = {
-			leads_to_tech = encryption5 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = decryption5 
-			research_cost_coeff = 1
-		}
-        
-        path = {
-            leads_to_tech = programmable_computer3
-            research_cost_coeff = 1
-        }
-		
-		research_cost = 2.5
-		start_year = 1946
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 22 }
-		}
-		
-		ai_will_do = {
-			factor = 3
-			
-			modifier = {
-				factor = 3
-				date > "1946.1.6"
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1947.1.1"
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-			decryption_tech
-			computing_tech
-		}
-	}
-    encryption5 = {
-
-		encryption = 1
-		
-		research_cost = 1
-		start_year = 1946
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 22 }
-		}
-		
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1 # not a major
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-    decryption5 = {
-
-		decryption = 1
-		
-		research_cost = 1.5
-		start_year = 1946
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 22 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5 # not a major
-			}
-            
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	}    
-    
-    
-    
-    
-    
-    programmable_computer3 = {
-
-		# small boost to research speed
-		research_speed_factor = 0.02
-		
-		path = {
-			leads_to_tech = encryption6
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = decryption6 
-			research_cost_coeff = 1
-		}
-        
-        path = {
-            leads_to_tech = programmable_computer4
-            research_cost_coeff = 1
-        }
-		
-		research_cost = 2.5
-		start_year = 1948
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 26 }
-		}
-		
-		ai_will_do = {
-			factor = 3
-			
-			modifier = {
-				factor = 3
-				date > "1948.1.6"
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1949.1.1"
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-			decryption_tech
-			computing_tech
-		}
-	}
-    encryption6 = {
-
-		encryption = 1
-		
-		research_cost = 1
-		start_year = 1948
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 26 }
-		}
-		
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1 # not a major
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-    decryption6 = {
-
-		decryption = 1
-		
-		research_cost = 1.5
-		start_year = 1948
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 26 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5 # not a major
-			}
-            
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	} 
-    
-    
-    
-    
-    
-    programmable_computer4 = {
-
-		# small boost to research speed
-		research_speed_factor = 0.02
-		
-		path = {
-			leads_to_tech = encryption7
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = decryption7 
-			research_cost_coeff = 1
-		}
-        
-		
-		research_cost = 2.5
-		start_year = 1950
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 30 }
-		}
-		
-		ai_will_do = {
-			factor = 3
-			
-			modifier = {
-				factor = 3
-				date > "1950.1.6"
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1951.1.1"
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-			decryption_tech
-			computing_tech
-		}
-	}
-    encryption7 = {
-
-		encryption = 1
-		
-		research_cost = 1
-		start_year = 1950
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 30 }
-		}
-		
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1 # not a major
-			}
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-    decryption7 = {
-
-		decryption = 1
-		
-		research_cost = 1.5
-		start_year = 1950
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 30 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5 # not a major
-			}
-            
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	} 
 }

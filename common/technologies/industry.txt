@@ -151,11 +151,11 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
-        path = {
+		path = {
 			leads_to_tech = faster_line
 			research_cost_coeff = 1
 		}
-        
+		
 		research_cost = 2.5
 		start_year = 1943
 		
@@ -186,12 +186,12 @@ technologies = {
 
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
-			
-        path = {
+		
+		path = {
 			leads_to_tech = faster_line
 			research_cost_coeff = 1
 		}
-        
+		
 		research_cost = 2.5
 		start_year = 1943
 		
@@ -528,7 +528,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		equipment_conversion_speed = 0.20
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.15
 		global_building_slots_factor = 0.2
 		
 		path = {
@@ -602,7 +602,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.10
 		global_building_slots_factor = 0.2
 		
 		path = {
@@ -643,7 +643,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.10
 		global_building_slots_factor = 0.2
 		
 		path = {
@@ -684,7 +684,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.10
 		global_building_slots_factor = 0.2
 		
 		path = {
@@ -725,7 +725,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.10
 		global_building_slots_factor = 0.2
 		
         path = {
@@ -1118,7 +1118,7 @@ technologies = {
 			}				
 		}		
 	}
-    
+	
     
     # added by mod
     
@@ -1713,7 +1713,7 @@ technologies = {
 				amount = 1
 			}
 		}
-        
+		
 		path = {
 			leads_to_tech = rubber_processing6
 			research_cost_coeff = 1
@@ -2284,7 +2284,7 @@ technologies = {
 			leads_to_tech = excavation5
 			research_cost_coeff = 1
 		}
-        
+
         path = {
 			leads_to_tech = excavation6
 			research_cost_coeff = 1
@@ -2363,7 +2363,7 @@ technologies = {
 				}
 			}
 		}
-	}			
+	}
 
 
     ###############

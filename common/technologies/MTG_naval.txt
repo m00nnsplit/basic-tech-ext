@@ -190,7 +190,7 @@ technologies = {
 			dd_tech
 		}
 	}
-	
+
 	future_ship_hull_light = {
 		
 		enable_equipments = { 
@@ -227,7 +227,7 @@ technologies = {
 			dd_tech
 		}
 	}
-
+	
 	smoke_generator = {
 
 		naval_retreat_speed = 0.2
@@ -404,7 +404,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = depth_charges_advice_tt
 		}
-		
+
 		path = {
 			leads_to_tech = future_depth_charges
 			research_cost_coeff = 1
@@ -749,7 +749,7 @@ technologies = {
 			ca_tech
 		}
 	}
-    future_ship_hull_cruiser = {
+	future_ship_hull_cruiser = {
 
 		enable_equipments = {
 			ship_hull_cruiser_5
@@ -784,12 +784,12 @@ technologies = {
 			ca_tech
 		}
 	}
-    
-    
-
-
+	
+	
+	
+	
 	improved_airplane_launcher = {
-
+		
 		
 		enable_equipment_modules = { 
 			ship_airplane_launcher_2
@@ -797,10 +797,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
 		}
-
-
+		
+		
 		research_cost = 0.75
-
+		
 		start_year = 1936
 		
 		folder = {
@@ -1197,10 +1197,10 @@ technologies = {
 			bc_tech
 		}
 	}
-    
-    
-    
-    
+	
+	
+	
+	
 	future_ship_hull_heavy = {
 
 		enable_equipments = {
@@ -1238,8 +1238,8 @@ technologies = {
 			bc_tech
 		}
 	}
-    
-    
+	
+	
 	basic_heavy_armor_scheme = {
 
 		enable_equipment_modules = { 
@@ -1478,7 +1478,7 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = { 
 			carrier_ship_engine_4
 		}
-        path = {
+		path = {
 			leads_to_tech = future_ship_hull_carrier
 			research_cost_coeff = 1
 		}
@@ -1509,8 +1509,8 @@ early_ship_hull_carrier = {
 			cv_tech
 		}
 	}
-    
-    future_ship_hull_carrier = {
+
+	future_ship_hull_carrier = {
 
 		enable_equipments = {
 			ship_hull_carrier_4
@@ -1518,7 +1518,7 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = { 
 			carrier_ship_engine_5
 		}
-        #path = {
+		#path = {
 		#	leads_to_tech = future_ship_hull_carrier
 		#	research_cost_coeff = 1
 		#}
@@ -1550,8 +1550,8 @@ early_ship_hull_carrier = {
 		}
 	}
 
-
-
+	
+	
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###                  ## #  # ###  #   #  ##  ###  ### #  # ###  ## 
  #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #       {~._.~}     #   #  # #  # ## ## #  # #  #  #  ## # #   #   
  #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##       ( Y )       #  #  # ###  # # # #### ###   #  # ## ##   #  
@@ -1835,7 +1835,7 @@ early_ship_hull_carrier = {
 	}
 	
 	modern_ship_torpedo_launcher = {
-    
+		
 		path = {
 			leads_to_tech = future_ship_torpedo_launcher
 			research_cost_coeff = 1
@@ -1871,7 +1871,7 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-    future_ship_torpedo_launcher = {
+	future_ship_torpedo_launcher = {
 		research_cost = 1
 
 		start_year = 1948
@@ -1902,7 +1902,8 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-
+	
+	
 	early_ship_hull_submarine = {
 
 		enable_equipments = {
@@ -2006,6 +2007,11 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = basic_submarine_snorkel
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 1.25
 
 		start_year = 1940
@@ -2074,7 +2080,7 @@ early_ship_hull_carrier = {
 		}
 	}
 
-    future_ship_hull_submarine = {
+	future_ship_hull_submarine = {
 
 		enable_equipments = {
 			ship_hull_submarine_5
@@ -2083,7 +2089,7 @@ early_ship_hull_carrier = {
 			ship_torpedo_sub_5
 			sub_ship_engine_5
 		}
-        
+		
 		research_cost = 1.25
 
 		start_year = 1948
@@ -2201,13 +2207,13 @@ early_ship_hull_carrier = {
 			ss_tech
 		}
 	}
-    
-    advanced_submarine_snorkel = {
-
+	
+	advanced_submarine_snorkel = {
+		
 		enable_equipment_modules = { 
 			ship_sub_snorkel_3
 		}
-
+		
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
 		}
@@ -2215,7 +2221,7 @@ early_ship_hull_carrier = {
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
 		research_cost = 2
-
+		
 		start_year = 1948
 		
 		folder = {
@@ -2403,7 +2409,8 @@ early_ship_hull_carrier = {
 			leads_to_tech = future_light_battery
 			research_cost_coeff = 1
 		}
-
+		
+		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = 18 }
@@ -2422,7 +2429,7 @@ early_ship_hull_carrier = {
 		}
 	}
 
-    future_light_battery = {
+	future_light_battery = {
 		
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
@@ -2454,7 +2461,7 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-    
+	
 
 	basic_light_shell = {
 		
@@ -2518,10 +2525,12 @@ early_ship_hull_carrier = {
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
 		research_cost = 2.5
+		
 		path = {
 			leads_to_tech = advanced_light_shell
 			research_cost_coeff = 1
 		}
+		
 		start_year = 1942
 		
 		destroyer = {
@@ -2567,7 +2576,7 @@ early_ship_hull_carrier = {
 		}
 	}
 
-    advanced_light_shell = {
+	advanced_light_shell = {
 		
 		xp_research_type = navy
 		xp_research_cost = 50
@@ -2706,11 +2715,11 @@ early_ship_hull_carrier = {
 
 		start_year = 1944
 
-        path = {
+		path = {
 			leads_to_tech = future_medium_battery
 			research_cost_coeff = 1
 		}
-        
+		
 		enable_equipment_modules = { 
 			ship_medium_battery_4
 			ship_light_medium_battery_4
@@ -2733,7 +2742,7 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-    future_medium_battery = {
+	future_medium_battery = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
@@ -2814,7 +2823,7 @@ early_ship_hull_carrier = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1940
+		start_year = 1942
 		path = {
 			leads_to_tech = advanced_medium_shell
 			research_cost_coeff = 1
@@ -2848,7 +2857,7 @@ early_ship_hull_carrier = {
 		}
 	}
 
-    advanced_medium_shell = {
+	advanced_medium_shell = {
 		
 		xp_research_type = navy
 		xp_research_cost = 50
@@ -2885,7 +2894,7 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-    
+	
 	
 	
 	basic_heavy_battery = {
@@ -2989,7 +2998,7 @@ early_ship_hull_carrier = {
 			leads_to_tech = future_heavy_battery
 			research_cost_coeff = 1
 		}
-        
+
 		enable_equipment_modules = { 
 			ship_heavy_battery_4
 		}
@@ -3022,13 +3031,13 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-    future_heavy_battery = {
+	future_heavy_battery = {
 		
 		research_cost = 1
 
 		start_year = 1948
-        
-        on_research_complete = {
+		
+		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 		
@@ -3150,8 +3159,8 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-
-    advanced_heavy_shell = {
+	
+	advanced_heavy_shell = {
 		
 		xp_research_type = navy
 		xp_research_cost = 50
@@ -4026,7 +4035,7 @@ early_ship_hull_carrier = {
 						OR = { 
 							has_capitulated = yes 
 							exists = no
-		                    is_subject_of = JAP
+							is_subject_of = JAP
 						}
 					}
 				}
@@ -4035,6 +4044,16 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 2
 				tag = ENG
+			}
+
+			modifier = {
+				factor = 10
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				has_war_with = GER
+				GER = { has_war_with = SOV }
 			}
 		}
 		

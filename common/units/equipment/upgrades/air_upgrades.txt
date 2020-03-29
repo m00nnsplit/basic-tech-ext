@@ -98,8 +98,16 @@ upgrades = {
 		reliability = -0.1
 		air_agility = -0.05
 	}
-
-    # for multiroles, increases both CAS and naval
+	plane_armor_upgrade = {
+		max_level = 5
+		
+		cost = air
+		
+		air_defence = 0.05
+		air_range = -0.05
+	}
+	
+	# for multiroles, increases both CAS and naval
     plane_strike_upgrade = {
         max_level = 5
         cost = air

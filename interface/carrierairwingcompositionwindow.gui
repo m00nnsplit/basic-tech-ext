@@ -3,7 +3,7 @@ guiTypes = {
 		name = "carrier_air_wing_composition_window"
 		position = { x=-200 y=-100 }
 		orientation = center
-		size = {width=350 height=400}#310}
+		size = {width=350 height=400}
 		moveable = yes
 		fade_time = 20
 		fade_type = linear
@@ -23,7 +23,7 @@ guiTypes = {
 		iconType = {
 			name ="generic_header2"
 			spriteType = "GFX_generic_header"
-			position = { x=8 y=337}#247 }
+			position = { x=8 y=337 }
 			alwaystransparent = yes
 #			orientation = bottom_left
 		}	
@@ -50,7 +50,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "entries"
 			position = {x=15 y=60}
-			size = {width=310 height=260}#170}
+			size = {width=310 height=260}
 			verticalScrollbar = "right_vertical_slider"
 			
 			background = {
@@ -71,20 +71,20 @@ guiTypes = {
 		iconType = {
 			name ="summary_bg"
 			spriteType = "GFX_generic_text_bg_60"
-			position = { x=138 y=296}#206 }
+			position = { x=138 y=296 }
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name ="carrier_capacity_icon"
 			spriteType = "GFX_MODIFIER_CARRIER_CAPACITY_PENALTY_REDUCTION"
-			position = { x=103 y=300}#210 }
+			position = { x=103 y=300 }
 			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
 			name = "summary"
-			position = {x=120 y=300}#210}
+			position = {x=120 y=300}
 			font = "hoi_18mbs"
 			text = "0/100"
 			maxWidth = 100
@@ -94,7 +94,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "confirm"
-			position = { x = 108 y = 345} #255}
+			position = { x = 108 y = 345}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "OK"
 			buttonFont = "hoi_16mbs"
@@ -131,7 +131,7 @@ guiTypes = {
 			maxWidth = 124
 			maxHeight = 23
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "Bf109"
 			fixedsize = yes
 		}
