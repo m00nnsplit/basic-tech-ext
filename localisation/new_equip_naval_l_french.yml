@@ -1,8 +1,8 @@
 ﻿l_french:
- submarine_5:0 "Submarine V"
- submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
- ship_hull_submarine_5:1 "1948 Submarine Hull"
- ship_hull_submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ submarine_5: "Submarine V"
+ submarine_5_desc: "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ ship_hull_submarine_5: "1948 Submarine Hull"
+ ship_hull_submarine_5_desc: "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
  ship_sub_snorkel_3: "Advanced Submarine Schnorkel"
  ship_sub_snorkel_3_desc: "A yet stealthier schnorkel."
  carrier_5: "Carrier V"
@@ -23,7 +23,7 @@
  
  ship_heavy_battery_5bis: "Batterie 43 cm"
  ship_heavy_battery_5bis_desc: "An upgrade approaching super-heavy levels."
- ship_super_heavy_battery_2: "Batterie 49 cm"
+ ship_super_heavy_battery_2: "Batterie 51 cm"
  ship_super_heavy_battery_2_desc: "A yet more ludicrous gun to replace the 46cm super heavy battery."
  
  ship_anti_air_5: "Canon anti-aérien moderne"

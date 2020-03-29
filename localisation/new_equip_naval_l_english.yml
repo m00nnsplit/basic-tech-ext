@@ -1,8 +1,8 @@
 ﻿l_english:
- submarine_5:0 "Submarine V"
- submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
- ship_hull_submarine_5:1 "1948 Submarine Hull"
- ship_hull_submarine_5_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ submarine_5: "Submarine V"
+ submarine_5_desc: "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ ship_hull_submarine_5: "1948 Submarine Hull"
+ ship_hull_submarine_5_desc: "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
  ship_sub_snorkel_3: "Advanced Submarine Schnorkel"
  ship_sub_snorkel_3_desc: "A yet stealthier schnorkel."
  carrier_5: "Carrier V"
@@ -23,8 +23,8 @@
  
  ship_heavy_battery_5bis: "43 cm Cannon"
  ship_heavy_battery_5bis_desc: "An upgrade approaching super-heavy levels."
- ship_super_heavy_battery_2: "49 cm Cannon"
- ship_super_heavy_battery_2_desc: "A yet more ludicrous gun to replace the 46cm super heavy battery."
+ ship_super_heavy_battery_2: "51 cm Cannon"
+ ship_super_heavy_battery_2_desc: "Historically, it is thought a 51cm (20 in) battery was considered for the proposed A-150 class of Japanese battleships."
  
  ship_anti_air_5: "Ship AA V"
  ship_anti_air_5_desc: "Improved ship AA"
