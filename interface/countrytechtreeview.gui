@@ -846,7 +846,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_recon"
-					position = { x = -280 y = 755 }
+					position = { x = -250 y = 755 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -855,6 +855,7 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "armour_recon_tank_equipment_desc"
 				}
 			}
 			
@@ -4447,7 +4448,7 @@ guiTypes = {
 				spriteType = "GFX_subtech_aa"
 				alwaystransparent = yes
 			}
-		}		
+		}
 		
 	}
 

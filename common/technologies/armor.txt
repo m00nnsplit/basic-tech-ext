@@ -536,6 +536,11 @@ technologies = {
 			amphibious_tank_equipment_2
 		}
 		
+		path = {
+			leads_to_tech = amphibious_recon_tank
+			research_cost_coeff = 2
+		}
+		
 		research_cost = 2
 		start_year = 1942
 		
@@ -699,6 +704,191 @@ technologies = {
 			armor
 		}
 	}
+	
+	
+	recon_tank = {
+		enable_equipments = {
+			recon_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = recon_tank_2
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = main_battle_tank 
+			research_cost_coeff = 2
+		}
+		
+		research_cost = 2
+		start_year = 1945
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0.5
+			}
+		}
+		
+		sub_technologies = {
+			amphibious_recon_tank
+			airborne_tank
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+			tp_tech
+		}
+	}
+	
+	amphibious_recon_tank = {
+		enable_equipments = {
+			amphibious_recon_tank_equipment_1
+		}
+		
+		
+		research_cost = 0.5
+		start_year = 1945
+		
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0.5
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+			tp_tech
+		}
+	}
+	
+	airborne_tank = {
+
+		enable_equipments = {
+			airborne_tank_equipment
+		}
+	
+		research_cost = 2
+		start_year = 1945
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	recon_tank_2 = {
+		
+		enable_equipments = {
+			recon_tank_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1949
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		sub_technologies = {
+			amphibious_recon_tank_2
+			airborne_tank_2
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+			tp_tech
+		}
+	}
+	
+	amphibious_recon_tank_2 = {
+		
+		enable_equipments = {
+			amphibious_recon_tank_equipment_2
+		}
+		
+		research_cost = 0.5
+		start_year = 1949
+		
+		
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0.5
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+			tp_tech
+		}
+	}
+	
+	airborne_tank_2 = {
+	
+		enable_equipments = {
+			airborne_tank_equipment_2
+		}
+	
+		research_cost = 1
+		start_year = 1949
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
 	
 	basic_medium_tank = { #Panzer III
 
@@ -2421,106 +2611,6 @@ technologies = {
 		
 		categories = {
 			armor
-		}
-	}
-
-	recon_tank = {
-
-		enable_equipments = {
-			recon_tank_equipment_1
-		}
-		
-		enable_subunits = {
-			recon_armor
-			recon_armor_air
-		}
-		
-		path = {
-			leads_to_tech = recon_tank_2
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = main_battle_tank 
-			research_cost_coeff = 2
-		}
-		
-		research_cost = 2
-		start_year = 1945
-		
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				not = {
-					any_state = {
-						is_controlled_by = ROOT
-						is_coastal = yes
-					}
-				}
-				factor = 0.5
-			}
-		}
-		
-		categories = {
-			armor
-			cat_light_armor
-			tp_tech
-		}
-	}
-
-	recon_tank_2 = {
-
-		enable_equipments = {
-			recon_tank_equipment_2
-		}
-		
-		recon_armor = {
-			recon = 0.5
-		}
-		recon_armor_air = {
-			recon = 0.5
-		}
-		
-		research_cost = 2
-		start_year = 1949
-		
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 16 }
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				not = {
-					any_state = {
-						is_controlled_by = ROOT
-						is_coastal = yes
-					}
-				}
-				factor = 0.5
-			}
-		}
-		
-		categories = {
-			armor
-			cat_light_armor
-			tp_tech
 		}
 	}
 }
