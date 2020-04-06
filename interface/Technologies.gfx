@@ -3802,6 +3802,10 @@ spriteTypes = {
 		name = "GFX_advanced_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/advanced_heavy_tank.dds"
 	}
+	SpriteType = {
+		name = "GFX_future_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/advanced_heavy_tank.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_super_heavy_tank_medium"

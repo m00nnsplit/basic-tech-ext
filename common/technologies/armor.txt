@@ -1683,8 +1683,8 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = super_heavy_tank_2 
-			research_cost_coeff = 2
+			leads_to_tech = future_heavy_tank 
+			research_cost_coeff = 0.9
 		}
 		
 		
@@ -2299,6 +2299,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
+			leads_to_tech = future_heavy_tank 
+			research_cost_coeff = 1
+		}
+		path = {
 			leads_to_tech = advanced_medium_tank 
 			research_cost_coeff = 0.9
 		}
@@ -2410,6 +2414,124 @@ technologies = {
 
 			modifier = {
 				factor = 0
+				OR = {
+					has_tech = modern_spaa
+					can_research = modern_spaa
+					is_researching_technology = main_battle_tank
+				}
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	future_heavy_tank = { #E-75
+		enable_equipments = {
+			heavy_tank_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = main_battle_tank_2
+			research_cost_coeff = 0.9
+		}
+		path = {
+			leads_to_tech = super_heavy_tank_2 
+			research_cost_coeff = 0.9
+		}
+		
+		research_cost = 2.5
+		start_year = 1947
+		
+		folder = {
+			name = armour_folder
+			position = { x = 5 y = 14 }
+		}
+		
+		sub_technologies = {
+			advanced_heavy_td
+			advanced_heavy_art
+			advanced_heavy_spaa
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+	advanced_heavy_td = {
+
+		enable_equipments = {
+			heavy_tank_destroyer_equipment_4
+		}
+	
+		research_cost = 0.5
+		start_year = 1947
+		
+		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 0.3
+				OR = {
+					has_tech = modern_td
+					can_research = modern_td
+					is_researching_technology = main_battle_tank
+				}
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	future_heavy_art = {
+
+		enable_equipments = {
+			heavy_tank_artillery_equipment_4
+		}
+	
+		research_cost = 0.5
+		start_year = 1947
+		
+		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 0.4
+				OR = {
+					has_tech = modern_art
+					can_research = modern_art
+					is_researching_technology = main_battle_tank
+				}
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	future_heavy_spaa = {
+		enable_equipments = {
+			heavy_tank_aa_equipment_4
+		}
+	
+		research_cost = 0.5
+		start_year = 1947
+		
+		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				factor = 0.3
 				OR = {
 					has_tech = modern_spaa
 					can_research = modern_spaa
@@ -2540,8 +2662,8 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = main_battle_tank_2 
-			research_cost_coeff = 2
+			leads_to_tech = future_heavy_tank 
+			research_cost_coeff = 0.9
 		}
 		
 		sub_technologies = {
