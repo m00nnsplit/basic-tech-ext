@@ -1,23 +1,80 @@
 #!/usr/bin/env groovy
 
-/**
- * overwrite each file in the mod with the official game's version
- * useful for diffing updates
- */
+def helpMsg="""
+Overwrite each file in the mod with the official game's version
+Useful for diffing updates
 
-def installDir=new File('C:/Program Files (x86)/Steam/steamapps/common/Hearts of Iron IV')
-if (args.size() > 0)
-	installDir = args[0]
-else
-	println "Install dir: ${installDir}\n"
-
-
+Args:
+ --install-dir <game installation directory>
+ --dry-run: don't actually overwrite the files
+ --verbose: list every file in the mod
+            Files are prefixed with:
+             G if the file is found in the game files
+             M if the file is found in the mod files
+             S if the file is skipped for whatever reason
+"""
 
 @groovy.transform.SourceURI def thisFile
-
 def modDir = new File(thisFile.resolve("."))
 
-modDir.eachDirMatch(~/[^.].*/ ){dir->
+def installDir=null
+def verbose=false
+def doIt=true
+
+// bit heavy for a script but hey
+def unaccountedForArgs=[]
+for (def i=0;i<args.size();i++)
+{
+	def a=args[i]
+	
+	if (a in ["-h", "--help"])
+	{
+		println(helpMsg)
+		return 0
+	}
+	else if (a in ["-v","--verbose"])
+		verbose=true
+	else if (a=="--dry-run")
+		doIt=false
+	else if (a=="--install-dir")
+		installDir=new File(args[++i])
+	else
+		unaccountedForArgs+=a
+}
+if (!installDir)
+{
+	println("Pass your game install dir, eg --install-dir 'C:/Program Files (x86)/Steam/steamapps/common/Hearts of Iron IV'")
+	return 1
+}
+if (unaccountedForArgs.size()>0)
+{
+	println("Unknown args:")
+	unaccountedForArgs.each{println it}
+	return 1
+}
+
+
+
+
+
+/**
+ * whether a given target which would normally be overwritten should be skipped
+ * mostly "skip binary files"
+ */
+boolean shouldSkip(target)
+{
+	def forbiddenExpansions=["dds", "pdn"]
+	
+	def result = false
+	forbiddenExpansions.each{
+		result ^= target.toString().endsWith(it)
+	}
+	return result
+}
+
+
+
+modDir.eachDirMatch(~/[^.].*/){dir->
 	dir.eachFileRecurse{target->
 		if (!target.isFile())
 			return
@@ -25,15 +82,23 @@ modDir.eachDirMatch(~/[^.].*/ ){dir->
 		def path = modDir.relativePath(target)
 		def source = new File(installDir, path)
 		
-		if (!source.exists())
-			return
 		
-		if (target.toString().endsWith(".dds"))
+		if (verbose)
 		{
+			if (source.exists()) print "G " else print ". "
+			print "M "
+			/* the reason for "M" is that I might at one point have this diff
+			   the game files as well, as new files from an expansion might
+			   be of interest to a mod due to changed structure */
+			if (shouldSkip target) print "S " else print ". "
 			println path
-			return
 		}
-		target.delete()
-		target << source.bytes
+		
+		if(  source.exists() && doIt && !shouldSkip(target))
+		{
+			target.delete()
+			target << source.bytes
+		}
 	}
 }
+
