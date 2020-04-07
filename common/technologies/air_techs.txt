@@ -1465,6 +1465,11 @@ technologies = {
 			scout_plane_equipment_2
 		}
 		
+		path = {
+			leads_to_tech = jet_scout_plane
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -1493,6 +1498,42 @@ technologies = {
 				has_tech = tactical_bomber2
 				has_tech = CAS2
 				factor = 3
+			}
+		}
+	}
+	
+	jet_scout_plane = {
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		enable_equipments = {
+			jet_scout_plane_equipment_1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 14 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_scout_plane
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				has_war = yes
+				factor = 1.5
 			}
 		}
 	}

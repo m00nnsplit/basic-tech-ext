@@ -59,4 +59,25 @@ equipments = {
 		naval_strike_attack = 3
 		naval_strike_targetting = 6
 	}
+	
+	jet_scout_plane_equipment_1 = {
+		year = 1950
+		archetype = scout_plane_equipment
+		parent = scout_plane_equipment_2
+		priority = 100
+		
+		air_range = 6000
+		maximum_speed = 650
+		air_agility = 55 # due to high altitude flying
+		air_attack = 0
+		air_defence = 15
+		
+		build_cost_ic = 55
+		resources = {
+			aluminium = 3
+			rubber = 1
+		}
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
+	}
 }
