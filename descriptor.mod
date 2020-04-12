@@ -1,5 +1,5 @@
 name="Basic Tech Tree Extension -- DEV"
-picture = "vonbraun.png"
+picture = "thumbnail.png"
 tags={
 	"Technologies"
 	"Historical"
