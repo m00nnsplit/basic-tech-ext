@@ -1,6 +1,6 @@
 A tech tree extension that preserves balance and can be plugged into an existing game.
 
-Ever gotten annoyed at how everyone can decrypt everyone's communications in the end game? How technological development slows down from 1942 on, and comes to a dead stop at 1945 ? How there's no space left to build new factories? Well, me too.
+Ever gotten annoyed at how everyone can decrypt everyone's communications in the end game? How technological development slows down from 1942 on, and comes to a dead stop at 1945? How there's no space left to build new factories? Well, me too.
 
 Hence this mod, which attempts to extend the tech tree towards 1950. The idea is that the game should end with some technologies still in the process of being deployed, even for countries at the forefront of technological development.
 
@@ -10,7 +10,7 @@ This not does not expand the tree; it increases its length, but not its breadth.
 
 In most cases, this mod is a [b]simple linear extension[/b] of what was there (when it makes sense : infantry equipment, trucks, artillery, electronics, industry). Thought was given as to balance and historicity, of course, which is why some paths are not extended further than in vanilla (such as the synthetic oil path, or the construction speed path).
 
-The [b]Armor tree [/b] has been [b]extended[/b], with elongation of all tank lines. A new branch of tank is added: reconnaissance tanks. They model the new role of light tanks after MBT took over combat roles post-war. They also receive amphibious and [b]airborne tank[/b] variants.
+The [b]armor tree [/b] has been [b]extended[/b], with elongation of all tank lines. A new branch of tank is added: reconnaissance tanks. They model the new role of light tanks after MBT took over combat roles post-war. They also receive amphibious and [b]airborne tank[/b] variants.
 
 [b]Many new jets[/b] were added to complete the jet line. Existing fighter jets are given carrier variants (which the US did develop), and a new type of aircraft is added, strike fighters (which are multirole, performing both CAS and naval, with possible fighter duties as well). The heavy fighter line receives a jet descendant, the jet interceptor.
 
@@ -32,7 +32,7 @@ Partial [b]French[/b] translation
 
 [h1] FAQ[/h1] 
 
-[b]Why not use Road to 56 or Expanded Technology + Industry + Equipment ?[/b] Because these mods increase the breadth of the tree, so they cannot be plugged into a game in progress. In addition, I'm no fan of their design choices, and I believe they don't always respect the feel of the base tech tree. I wanted something far simpler.
+[b]Why not use [i]Road to 56[/i] or [i]Expanded Technology + Industry + Equipment[/i]?[/b] Because these mods increase the breadth of the tree, so they cannot be plugged into a game in progress. In addition, I'm no fan of their design choices, and I believe they don't always respect the feel of the base tech tree. I wanted something far simpler.
 
 [b]Images are ugly[/b] Yeah, I'm no artist. If you do have the skills and are willing to help, that'd be absolutely great.
 
@@ -40,7 +40,7 @@ Partial [b]French[/b] translation
 
 [b]The history is questionable[/b] Yes, but so is the history in the original tech tree. Still, if you do have a better solution in mind, do contact me.
 
-[b]Is there a public repository ?[/b] Yes : https://github.com/m00nnsplit/basic-tech-ext
+[b]Is there a public repository?[/b] Yes: https://github.com/m00nnsplit/basic-tech-ext
 
 
 The picture is Wernher von Braun preparing to whack a kid for asking whether there would be slave labour on the Moon. Well, OK, maybe not. It's him at the Little League team of the Huntsville, Alabama Boys Club.
