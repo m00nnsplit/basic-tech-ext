@@ -83,6 +83,7 @@
  
  airborne_tank_equipment: "Char aéroporté"
  airborne_tank_equipment_short: "Char aérien"
+ airborne_tank_equipment_desc: "Un char suffisamment léger pour etre largué par avion est une idée intéressante: on pourrait l'utiliser pour 'durcir' des divisions de parachutistes."
  airborne_tank_equipment_1: "Char aéroporté I"
  airborne_tank_equipment_1_short: "Char aérien I"
  airborne_tank_equipment_1_desc: "Un char suffisamment léger pour etre largué par avion est une idée intéressante: on pourrait l'utiliser pour 'durcir' des divisions de parachutistes."

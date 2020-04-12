@@ -83,6 +83,7 @@
  
  airborne_tank_equipment: "Airdropped tank"
  airborne_tank_equipment_short: "Airborne tank"
+ airborne_tank_equipment_desc: "Tanks light enough to be air-dropped are an interesting idea: they could 'harden' paratrooper divisions, or even be used on their own."
  airborne_tank_equipment_1: "Airborne tank I"
  airborne_tank_equipment_1_short: "Air tank I"
  airborne_tank_equipment_1_desc: "Tanks light enough to be air-dropped are an interesting idea: they could 'harden' paratrooper divisions."

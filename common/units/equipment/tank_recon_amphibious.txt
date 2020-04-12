@@ -6,7 +6,6 @@ equipments = {
 
 		archetype = amphibious_tank_equipment
 		parent = amphibious_tank_equipment_2
-		is_archetype = yes
 		is_convertable = yes
 		can_convert_from = { 
 			recon_tank_equipment_1 

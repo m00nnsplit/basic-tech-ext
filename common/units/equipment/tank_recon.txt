@@ -54,7 +54,7 @@ equipments = {
 		year = 1949
 
 		archetype = light_tank_equipment
-        parent = recon_tank_equipment_1
+		parent = recon_tank_equipment_1
 		priority = 50
 		visual_level = 1
 		is_convertable = yes

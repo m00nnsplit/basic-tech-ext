@@ -536,10 +536,6 @@ technologies = {
 			amphibious_tank_equipment_2
 		}
 		
-		path = {
-			leads_to_tech = amphibious_recon_tank
-			research_cost_coeff = 2
-		}
 		
 		research_cost = 2
 		start_year = 1942
@@ -764,10 +760,15 @@ technologies = {
 			amphibious_recon_tank_equipment_1
 		}
 		
+		enable_subunits = {
+			amphibious_armor
+		}
+
+	
 		
 		research_cost = 0.5
 		start_year = 1945
-		
+		sub_tech_index = 4
 		
 		ai_will_do = {
 			factor = 0.5
@@ -795,9 +796,14 @@ technologies = {
 		enable_equipments = {
 			airborne_tank_equipment
 		}
-	
+		
+		enable_subunits = {
+			airborne_armor
+		}
+		
 		research_cost = 2
 		start_year = 1945
+		sub_tech_index = 5
 		
 		ai_will_do = {
 			factor = 0
@@ -844,9 +850,13 @@ technologies = {
 			amphibious_recon_tank_equipment_2
 		}
 		
+		enable_subunits = {
+			amphibious_armor
+		}
+		
 		research_cost = 0.5
 		start_year = 1949
-		
+		sub_tech_index = 4
 		
 		
 		ai_will_do = {
@@ -875,9 +885,15 @@ technologies = {
 		enable_equipments = {
 			airborne_tank_equipment_2
 		}
-	
+		
+		enable_subunits = {
+			airborne_armor
+		}
+		
+		
 		research_cost = 1
 		start_year = 1949
+		sub_tech_index = 5
 		
 		ai_will_do = {
 			factor = 0

@@ -1,5 +1,5 @@
 ﻿l_english:
- recon_armor:0 "Reconnaissance Tank Battalion"
- recon_armor_desc:0 "A battalion of reconnaissance tanks."
- recon_armor_air:0 "Air Reconnaissance Tank Battalion"
- recon_armor_air_desc:0 "A battalion of reconnaissance tanks, trained for air drops. Takes longer to train, and its reconnaissance is lower because of equipment constraints."
+ recon_armor: "Reconnaissance Tank Battalion"
+ recon_armor_desc: "A battalion of reconnaissance tanks."
+ airborne_armor: "Airborne Tank Battalion"
+ airborne_armor_desc: "A battalion of reconnaissance tanks, trained for air drops."

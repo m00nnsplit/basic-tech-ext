@@ -741,13 +741,13 @@ spriteTypes = {
 		name = "GFX_unit_recon_armor_icon_small"
 		texturefile = "gfx/texticons/unit_recon_tank_icon_small.dds"
 		legacy_lazy_load = no
-		noOfFrames = 2		
+		noOfFrames = 2
 	}
-    spriteType = {
-		name = "GFX_unit_recon_armor_air_icon_small"
-		texturefile = "gfx/texticons/unit_recon_tank_air_icon_small.dds"
+	spriteType = {
+		name = "GFX_unit_airborne_tank_icon_small"
+		texturefile = "gfx/texticons/unit_airborne_tank_icon_small.dds"
 		legacy_lazy_load = no
-		noOfFrames = 2		
+		noOfFrames = 2
 	}
 	
 	spriteType = {
