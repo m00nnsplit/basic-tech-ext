@@ -15,7 +15,7 @@ picture="vonbraun.png"
 tags={
 	"Technologies"
 }
-supported_version="1.9.*"
+supported_version="1.10.*"
 ```
 
 HoI4 should load it just fine.
