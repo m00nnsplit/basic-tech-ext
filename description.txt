@@ -8,7 +8,7 @@ This not does not expand the tree; it increases its length, but not its breadth.
 
 [h1]Additions[/h1] 
 
-In most cases, this mod is a [b]simple linear extension[/b] of what was there (when it makes sense : infantry equipment, trucks, artillery, electronics, industry). Thought was given as to balance and historicity, of course, which is why some paths are not extended further than in vanilla (such as the synthetic oil path, or the construction speed path).
+In most cases, this mod is a [b]simple linear extension[/b] of what was there (when it makes sense: infantry equipment, trucks, artillery, electronics, industry). Thought was given as to balance and historicity, of course, which is why some paths are not extended further than in vanilla (such as the synthetic oil path, or the construction speed path).
 
 The [b]armor tree [/b] has been [b]extended[/b], with elongation of all tank lines. A new branch of tank is added: reconnaissance tanks. They model the new role of light tanks after MBT took over combat roles post-war. They also receive amphibious and [b]airborne tank[/b] variants.
 
