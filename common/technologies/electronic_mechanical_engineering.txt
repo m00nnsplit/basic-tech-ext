@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		
 		folder = {
 			name = electronics_folder
@@ -98,7 +98,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.75
 		
 		folder = {
 			name = electronics_folder
@@ -128,7 +128,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.25
 		start_year = 1938
 		enable_equipment_modules = { 
 			ship_radar_1
@@ -181,7 +181,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.25
 		start_year = 1939
 		
 		folder = {
@@ -229,7 +229,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 1.25
 		start_year = 1940
 		
 		folder = {
@@ -275,7 +275,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 1.25
 		start_year = 1941
 		
 		folder = {
@@ -312,7 +312,7 @@ technologies = {
 			level = 6
 		}
 
-        path = {
+		path = {
 			leads_to_tech = better_radar 
 			research_cost_coeff = 1
 		}
@@ -323,7 +323,7 @@ technologies = {
 		
 		static_anti_air_hit_chance_factor = 0.2
 		
-		research_cost = 2.5
+		research_cost = 1.25
 		start_year = 1942
 		
 		folder = {
@@ -348,22 +348,22 @@ technologies = {
 		}
 	}
 	
-    better_radar = {
-
+	better_radar = {
+		
 		# radar boost in air/sea combat depends on radar level
-
+		
 		enable_equipment_modules = { 
 			ship_radar_5
 		}
-        
+		
 		path = {
 			leads_to_tech = better_radar_2 
 			research_cost_coeff = 1
 		}
-        
+		
 		static_anti_air_hit_chance_factor = 0.2
 		
-		research_cost = 2.5
+		research_cost = 1.25
 		start_year = 1946
 		
 		folder = {
@@ -387,18 +387,18 @@ technologies = {
 			radar_tech
 		}
 	}
-    
-    better_radar_2 = {
-
+	
+	better_radar_2 = {
+		
 		# radar boost in air/sea combat depends on radar level
-
+		
 		enable_equipment_modules = { 
 			ship_radar_6
 		}
 		
 		static_anti_air_hit_chance_factor = 0.2
 		
-		research_cost = 2.5
+		research_cost = 1.25
 		start_year = 1950
 		
 		folder = {
@@ -579,10 +579,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-        path = {
-            leads_to_tech = programmable_computer
-            research_cost_coeff = 1
-        }
+		path = {
+			leads_to_tech = programmable_computer
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2.5
 		start_year = 1942
@@ -614,9 +614,9 @@ technologies = {
 		}
 	}
 	
-    
-    programmable_computer = {
-
+	
+	programmable_computer = {
+		
 		# small boost to research speed
 		research_speed_factor = 0.02
 		
@@ -628,11 +628,11 @@ technologies = {
 			leads_to_tech = decryption4
 			research_cost_coeff = 1
 		}
-        
-        path = {
-            leads_to_tech = programmable_computer2
-            research_cost_coeff = 1
-        }
+		
+		path = {
+			leads_to_tech = programmable_computer2
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2.5
 		start_year = 1944
@@ -664,7 +664,7 @@ technologies = {
 		}
 	}
 	
-    programmable_computer2 = {
+	programmable_computer2 = {
 
 		# small boost to research speed
 		research_speed_factor = 0.02
@@ -677,11 +677,11 @@ technologies = {
 			leads_to_tech = decryption5 
 			research_cost_coeff = 1
 		}
-        
-        path = {
-            leads_to_tech = programmable_computer3
-            research_cost_coeff = 1
-        }
+		
+		path = {
+			leads_to_tech = programmable_computer3
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2.5
 		start_year = 1946
@@ -713,7 +713,7 @@ technologies = {
 		}
 	}
 	
-    programmable_computer3 = {
+	programmable_computer3 = {
 
 		# small boost to research speed
 		research_speed_factor = 0.02
@@ -726,11 +726,11 @@ technologies = {
 			leads_to_tech = decryption6 
 			research_cost_coeff = 1
 		}
-        
-        path = {
-            leads_to_tech = programmable_computer4
-            research_cost_coeff = 1
-        }
+		
+		path = {
+			leads_to_tech = programmable_computer4
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2.5
 		start_year = 1948
@@ -762,7 +762,7 @@ technologies = {
 		}
 	}
 	
-    programmable_computer4 = {
+	programmable_computer4 = {
 
 		# small boost to research speed
 		research_speed_factor = 0.02
@@ -775,7 +775,7 @@ technologies = {
 			leads_to_tech = decryption7 
 			research_cost_coeff = 1
 		}
-        
+		
 		
 		research_cost = 2.5
 		start_year = 1950
@@ -1055,8 +1055,8 @@ technologies = {
 	}
 
 	
-    encryption4 = {
-
+	encryption4 = {
+		
 		encryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1087,8 +1087,8 @@ technologies = {
 			encryption_tech
 		}
 	}
-    decryption4 = {
-
+	decryption4 = {
+		
 		decryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1108,7 +1108,7 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5 # not a major
 			}
-            
+			
 		}
 		
 		categories = {
@@ -1116,13 +1116,13 @@ technologies = {
 			decryption_tech
 		}
 	}
-    
-    
-    
-    
-    
-    encryption5 = {
-
+	
+	
+	
+	
+	
+	encryption5 = {
+		
 		encryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1153,8 +1153,8 @@ technologies = {
 			encryption_tech
 		}
 	}
-    decryption5 = {
-
+	decryption5 = {
+		
 		decryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1174,21 +1174,21 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5 # not a major
 			}
-            
+			
 		}
 		
 		categories = {
 			electronics
 			decryption_tech
 		}
-	}    
-    
-    
-    
-    
-    
-    encryption6 = {
-
+	}
+	
+	
+	
+	
+	
+	encryption6 = {
+		
 		encryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1219,7 +1219,7 @@ technologies = {
 			encryption_tech
 		}
 	}
-    decryption6 = {
+	decryption6 = {
 
 		decryption = 1
 		allow_branch = {
@@ -1240,21 +1240,21 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5 # not a major
 			}
-            
+			
 		}
 		
 		categories = {
 			electronics
 			decryption_tech
 		}
-	} 
-    
-    
-    
-    
-    
-    encryption7 = {
-
+	}
+	
+	
+	
+	
+	
+	encryption7 = {
+		
 		encryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1285,8 +1285,8 @@ technologies = {
 			encryption_tech
 		}
 	}
-    decryption7 = {
-
+	decryption7 = {
+		
 		decryption = 1
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -1306,7 +1306,7 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5 # not a major
 			}
-            
+			
 		}
 		
 		categories = {
@@ -1737,7 +1737,15 @@ technologies = {
 		}
 		
 		nuclear_production = 1
-		
+		on_research_complete = {
+			if = {
+				limit = {
+					tag = USA
+					has_war_with = JAP
+				}
+				play_warning_to_japan_effect = yes
+			}
+		}
 		categories = {
 			nuclear
 		}

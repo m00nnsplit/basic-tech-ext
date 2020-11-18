@@ -76,7 +76,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 		
 		start_year = 1936
 
@@ -121,7 +121,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 
 		start_year = 1940
 		
@@ -200,7 +200,7 @@ technologies = {
 			light_ship_engine_5
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 
 		start_year = 1948
 		
@@ -281,7 +281,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1922
 		
@@ -325,7 +325,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1936
 		
@@ -368,7 +368,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1940
 		
@@ -413,7 +413,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1944
 		
@@ -455,7 +455,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1948
 		
@@ -496,7 +496,7 @@ technologies = {
 			leads_to_tech = improved_sonar
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1922
 		
@@ -789,7 +789,7 @@ technologies = {
 	
 	
 	improved_airplane_launcher = {
-		
+
 		
 		enable_equipment_modules = { 
 			ship_airplane_launcher_2
@@ -797,10 +797,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
 		}
-		
-		
+
+
 		research_cost = 0.75
-		
+
 		start_year = 1936
 		
 		folder = {
@@ -847,7 +847,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.25
 
 		start_year = 1936
 		
@@ -895,7 +895,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.25
 
 		start_year = 1940
 		
@@ -937,7 +937,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.25
 
 		start_year = 1944
 		
@@ -1260,7 +1260,7 @@ technologies = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.25
 
 		start_year = 1936
 		
@@ -1303,8 +1303,8 @@ technologies = {
 		
 		xp_research_type = navy
 		xp_research_cost = 50
-		xp_research_bonus = 1.50
-		research_cost = 2.5
+		xp_research_bonus = 1.25
+		research_cost = 1.25
 
 		start_year = 1940
 		
@@ -1560,7 +1560,7 @@ early_ship_hull_carrier = {
 
 	basic_torpedo = {
 		
-		research_cost = 1
+		research_cost = 2.0
 
 		start_year = 1922
 
@@ -1759,7 +1759,7 @@ early_ship_hull_carrier = {
 	}
 	improved_ship_torpedo_launcher = {
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1936
 
@@ -1797,7 +1797,7 @@ early_ship_hull_carrier = {
 	}
 	advanced_ship_torpedo_launcher = {
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1940
 
@@ -1833,7 +1833,6 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-	
 	modern_ship_torpedo_launcher = {
 		
 		path = {
@@ -1841,7 +1840,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1944
 
@@ -1872,7 +1871,7 @@ early_ship_hull_carrier = {
 		}
 	}
 	future_ship_torpedo_launcher = {
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1948
 
@@ -1920,7 +1919,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.25
+		research_cost = 1.5
 
 		start_year = 1922
 		
@@ -1965,7 +1964,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.25
+		research_cost = 1.5
 
 		start_year = 1936
 		
@@ -2012,7 +2011,7 @@ early_ship_hull_carrier = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.25
+		research_cost = 2.0
 
 		start_year = 1940
 		
@@ -2053,7 +2052,7 @@ early_ship_hull_carrier = {
 			leads_to_tech = future_ship_hull_submarine
 			research_cost_coeff = 1
 		}
-		research_cost = 1.25
+		research_cost = 2.0
 
 		start_year = 1944
 		
@@ -2090,7 +2089,7 @@ early_ship_hull_carrier = {
 			sub_ship_engine_5
 		}
 		
-		research_cost = 1.25
+		research_cost = 2.0
 
 		start_year = 1948
 		
@@ -2409,8 +2408,8 @@ early_ship_hull_carrier = {
 			leads_to_tech = future_light_battery
 			research_cost_coeff = 1
 		}
-		
-		
+
+
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = 18 }
@@ -2468,7 +2467,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1936
 
@@ -2524,8 +2523,8 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
-		
+		research_cost = 1.5
+
 		path = {
 			leads_to_tech = advanced_light_shell
 			research_cost_coeff = 1
@@ -2581,7 +2580,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1950
 		
@@ -2781,7 +2780,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1936
 
@@ -2821,7 +2820,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1942
 		path = {
@@ -2862,7 +2861,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1950
 		
@@ -3081,7 +3080,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1938
 
@@ -3123,7 +3122,7 @@ early_ship_hull_carrier = {
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1942
 		
@@ -3159,13 +3158,13 @@ early_ship_hull_carrier = {
 			naval_equipment
 		}
 	}
-	
+
 	advanced_heavy_shell = {
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1950
 		
@@ -4035,7 +4034,7 @@ early_ship_hull_carrier = {
 						OR = { 
 							has_capitulated = yes 
 							exists = no
-							is_subject_of = JAP
+		                    is_subject_of = JAP
 						}
 					}
 				}

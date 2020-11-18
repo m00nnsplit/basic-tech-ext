@@ -8,14 +8,12 @@ technologies = {
 		enable_subunits = {
 			light_armor
 		}
-		
-
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
+		}
 		on_research_complete = {
-			limit = {
-				NOT = {	has_template_containing_unit = light_armor }
-				NOT = {	has_template_containing_unit = heavy_armor }
-				NOT = {	has_template_containing_unit = medium_armor }
-			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -92,12 +90,12 @@ technologies = {
 			light_armor
 		}
 
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
+		}
 		on_research_complete = {
-			limit = {
-				NOT = {	has_template_containing_unit = light_armor }
-				NOT = {	has_template_containing_unit = heavy_armor }
-				NOT = {	has_template_containing_unit = medium_armor }
-			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -536,7 +534,6 @@ technologies = {
 			amphibious_tank_equipment_2
 		}
 		
-		
 		research_cost = 2
 		start_year = 1942
 		
@@ -635,7 +632,7 @@ technologies = {
 		enable_equipments = {
 			light_tank_destroyer_equipment_3
 		}
-		
+	
 		research_cost = 0.5
 		start_year = 1941
 		
@@ -1973,12 +1970,12 @@ technologies = {
 			heavy_armor
 		}
 
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
+		}
 		on_research_complete = {
-			limit = {
-				NOT = {	has_template_containing_unit = light_armor }
-				NOT = {	has_template_containing_unit = heavy_armor }
-				NOT = {	has_template_containing_unit = medium_armor }
-			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -2120,10 +2117,10 @@ technologies = {
 			armor
 		}
 	}
-	
+
 	
 	basic_heavy_spaa = {
-		
+
 		enable_equipments = {
 			heavy_tank_aa_equipment_1
 		}
@@ -2562,15 +2559,15 @@ technologies = {
 	}
 	
 	super_heavy_tank = { #Maus
-	
+
 		enable_equipments = {
 			super_heavy_tank_equipment_1
 		}
-		
+
 		enable_subunits = {
 			super_heavy_armor
 		}
-		
+	
 		path = {
 			leads_to_tech = super_heavy_tank_2 
 			research_cost_coeff = 1

@@ -1681,6 +1681,12 @@ spriteTypes = {
 		name = "GFX_advanced_encryption_medium"
 		texturefile = "gfx/interface/technologies/advanced_encryption.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_lar_decryption_bonus_tech_medium"
+		texturefile = "gfx/interface/technologies/basic_decryption.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_encryption4_medium"
 		texturefile = "gfx/interface/technologies/encryption4.dds"
